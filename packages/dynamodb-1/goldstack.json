@@ -1,0 +1,17 @@
+{
+  "$schema": "./schemas/package.schema.json",
+  "name": "dynamodb-1",
+  "template": "dynamodb",
+  "templateVersion": "0.1.0",
+  "configuration": {},
+  "deployments": [
+    {
+      "name": "prod",
+      "awsUser": "goldstack-dev",
+      "awsRegion": "us-west-2",
+      "configuration": {
+        "tableName": "goldstack-ci-test-dynamodb-1652733358369"
+      }
+    }
+  ]
+}
