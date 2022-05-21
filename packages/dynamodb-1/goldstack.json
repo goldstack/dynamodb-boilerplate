@@ -10,7 +10,7 @@
       "awsUser": "goldstack-dev",
       "awsRegion": "us-west-2",
       "configuration": {
-        "tableName": "goldstack-ci-test-dynamodb-1653093867510"
+        "tableName": "goldstack-ci-test-dynamodb-1653168799966"
       }
     }
   ]
