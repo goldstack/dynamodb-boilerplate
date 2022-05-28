@@ -714,9 +714,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-dynamodb@npm:0.1.9":
-  version: 0.1.9
-  resolution: "@goldstack/template-dynamodb@npm:0.1.9"
+"@goldstack/template-dynamodb@npm:0.1.10":
+  version: 0.1.10
+  resolution: "@goldstack/template-dynamodb@npm:0.1.10"
   dependencies:
     "@aws-sdk/util-dynamodb": ^3.87.0
     "@goldstack/infra": 0.3.36
@@ -736,7 +736,7 @@ __metadata:
     testcontainers: ^8.10.0
     umzug: ^3.1.1
     yargs: ^15.4.1
-  checksum: 85a9b76f88c57f3950e55985b59a80134dba0f56fd0d428a6bcc8ad07d5c272be61d0df968d125e7a7924e2b53971d60d150e25192ce1fe91696d3efd54dcb51
+  checksum: b1e09d2bc57bc3bb353c7c12ee2b0837616b9ea9b57e54c46a711457adb7d8ca81a18511b594b28338bb2d9e0f4b8261fa07c0781222688237b28cefeac22e8c
   languageName: node
   linkType: hard
 
@@ -3042,7 +3042,7 @@ __metadata:
   resolution: "dynamodb-1@workspace:packages/dynamodb-1"
   dependencies:
     "@aws-sdk/util-dynamodb": ^3.87.0
-    "@goldstack/template-dynamodb": 0.1.9
+    "@goldstack/template-dynamodb": 0.1.10
     "@types/jest": ^27.5.1
     "@types/node": ^17.0.33
     aws-sdk: 2.1055.0
