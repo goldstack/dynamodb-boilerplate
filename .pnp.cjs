@@ -1130,16 +1130,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-dynamodb", [\
-        ["npm:0.1.12", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-npm-0.1.12-690f398ee1-c796061a41.zip/node_modules/@goldstack/template-dynamodb/",\
+        ["npm:0.1.13", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-npm-0.1.13-42e8c58ca6-5490fa2bd9.zip/node_modules/@goldstack/template-dynamodb/",\
           "packageDependencies": [\
-            ["@goldstack/template-dynamodb", "npm:0.1.12"],\
+            ["@goldstack/template-dynamodb", "npm:0.1.13"],\
             ["@aws-sdk/util-dynamodb", "npm:3.87.0"],\
             ["@goldstack/infra", "npm:0.3.37"],\
             ["@goldstack/infra-aws", "npm:0.3.45"],\
             ["@goldstack/utils-esbuild", "npm:0.4.2"],\
             ["@goldstack/utils-package", "npm:0.3.39"],\
-            ["@goldstack/utils-package-config-embedded", "npm:0.4.2"],\
+            ["@goldstack/utils-package-config-embedded", "npm:0.4.3"],\
             ["@goldstack/utils-terraform", "npm:0.3.69"],\
             ["aws-sdk", "npm:2.1055.0"],\
             ["testcontainers", "npm:8.10.0"],\
@@ -1149,11 +1149,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-dynamodb-cli", [\
-        ["npm:0.4.2", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.4.2-e049ab944a-a02d1bd852.zip/node_modules/@goldstack/template-dynamodb-cli/",\
+        ["npm:0.4.3", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.4.3-541312b6ea-cb7d0354e5.zip/node_modules/@goldstack/template-dynamodb-cli/",\
           "packageDependencies": [\
-            ["@goldstack/template-dynamodb-cli", "npm:0.4.2"],\
-            ["@goldstack/template-dynamodb", "npm:0.1.12"],\
+            ["@goldstack/template-dynamodb-cli", "npm:0.4.3"],\
+            ["@goldstack/template-dynamodb", "npm:0.1.13"],\
             ["@goldstack/utils-cli", "npm:0.2.14"],\
             ["@goldstack/utils-package", "npm:0.3.39"],\
             ["@goldstack/utils-package-config", "npm:0.3.40"],\
@@ -1243,10 +1243,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/utils-package-config-embedded", [\
-        ["npm:0.4.2", {\
-          "packageLocation": "./.yarn/cache/@goldstack-utils-package-config-embedded-npm-0.4.2-eb31fa5aa6-c454c1de3d.zip/node_modules/@goldstack/utils-package-config-embedded/",\
+        ["npm:0.4.3", {\
+          "packageLocation": "./.yarn/cache/@goldstack-utils-package-config-embedded-npm-0.4.3-4792b6c74d-0fb841d632.zip/node_modules/@goldstack/utils-package-config-embedded/",\
           "packageDependencies": [\
-            ["@goldstack/utils-package-config-embedded", "npm:0.4.2"],\
+            ["@goldstack/utils-package-config-embedded", "npm:0.4.3"],\
             ["@goldstack/infra", "npm:0.3.37"],\
             ["@goldstack/utils-config", "npm:0.3.34"],\
             ["@goldstack/utils-package", "npm:0.3.39"]\
@@ -3910,8 +3910,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["dynamodb-1", "workspace:packages/dynamodb-1"],\
             ["@aws-sdk/util-dynamodb", "npm:3.87.0"],\
-            ["@goldstack/template-dynamodb", "npm:0.1.12"],\
-            ["@goldstack/template-dynamodb-cli", "npm:0.4.2"],\
+            ["@goldstack/template-dynamodb", "npm:0.1.13"],\
+            ["@goldstack/template-dynamodb-cli", "npm:0.4.3"],\
             ["@types/jest", "npm:27.5.1"],\
             ["@types/node", "npm:17.0.33"],\
             ["aws-sdk", "npm:2.1055.0"],\
