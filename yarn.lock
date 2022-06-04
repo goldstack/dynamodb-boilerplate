@@ -707,9 +707,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-dynamodb-cli@npm:0.4.3":
-  version: 0.4.3
-  resolution: "@goldstack/template-dynamodb-cli@npm:0.4.3"
+"@goldstack/template-dynamodb-cli@npm:0.4.4":
+  version: 0.4.4
+  resolution: "@goldstack/template-dynamodb-cli@npm:0.4.4"
   dependencies:
     "@goldstack/template-dynamodb": 0.1.13
     "@goldstack/utils-cli": 0.2.14
@@ -720,7 +720,7 @@ __metadata:
     "@goldstack/utils-terraform-aws": 0.3.68
     umzug: ^3.1.1
     yargs: ^15.4.1
-  checksum: cb7d0354e575f6fbb0c43ad76b4a9b4aa036f152b1e5b10c2db280ec79b9680722ba9c7cb95b6bf391ca18007d605ee21140ef9dc03cfcd93cdb711f75eccc7a
+  checksum: 38bf864bc0ceee48330a0007474c9b2720716bd4d436c5df69ced7a31da37a8019604865596c1e4bad19bbd095f89a89e091d215a0f3eaa52529c2e2c91c3087
   languageName: node
   linkType: hard
 
@@ -3062,7 +3062,7 @@ __metadata:
   dependencies:
     "@aws-sdk/util-dynamodb": ^3.87.0
     "@goldstack/template-dynamodb": 0.1.13
-    "@goldstack/template-dynamodb-cli": 0.4.3
+    "@goldstack/template-dynamodb-cli": 0.4.4
     "@types/jest": ^27.5.1
     "@types/node": ^17.0.33
     aws-sdk: 2.1055.0
