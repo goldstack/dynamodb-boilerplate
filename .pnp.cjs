@@ -1130,10 +1130,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-dynamodb", [\
-        ["npm:0.1.13", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-npm-0.1.13-42e8c58ca6-5490fa2bd9.zip/node_modules/@goldstack/template-dynamodb/",\
+        ["npm:0.1.14", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-npm-0.1.14-d03020acd5-809a377fc3.zip/node_modules/@goldstack/template-dynamodb/",\
           "packageDependencies": [\
-            ["@goldstack/template-dynamodb", "npm:0.1.13"],\
+            ["@goldstack/template-dynamodb", "npm:0.1.14"],\
             ["@aws-sdk/util-dynamodb", "npm:3.87.0"],\
             ["@goldstack/infra", "npm:0.3.37"],\
             ["@goldstack/infra-aws", "npm:0.3.45"],\
@@ -1149,11 +1149,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-dynamodb-cli", [\
-        ["npm:0.4.4", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.4.4-74ee90e70a-38bf864bc0.zip/node_modules/@goldstack/template-dynamodb-cli/",\
+        ["npm:0.4.5", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.4.5-a7195c1553-59d0775c83.zip/node_modules/@goldstack/template-dynamodb-cli/",\
           "packageDependencies": [\
-            ["@goldstack/template-dynamodb-cli", "npm:0.4.4"],\
-            ["@goldstack/template-dynamodb", "npm:0.1.13"],\
+            ["@goldstack/template-dynamodb-cli", "npm:0.4.5"],\
+            ["@goldstack/template-dynamodb", "npm:0.1.14"],\
             ["@goldstack/utils-cli", "npm:0.2.14"],\
             ["@goldstack/utils-package", "npm:0.3.39"],\
             ["@goldstack/utils-package-config", "npm:0.3.40"],\
@@ -3910,8 +3910,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["dynamodb-1", "workspace:packages/dynamodb-1"],\
             ["@aws-sdk/util-dynamodb", "npm:3.87.0"],\
-            ["@goldstack/template-dynamodb", "npm:0.1.13"],\
-            ["@goldstack/template-dynamodb-cli", "npm:0.4.4"],\
+            ["@goldstack/template-dynamodb", "npm:0.1.14"],\
+            ["@goldstack/template-dynamodb-cli", "npm:0.4.5"],\
             ["@types/jest", "npm:27.5.1"],\
             ["@types/node", "npm:17.0.33"],\
             ["aws-sdk", "npm:2.1055.0"],\
