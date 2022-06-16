@@ -1142,7 +1142,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@goldstack/utils-package-config-embedded", "npm:0.4.4"],\
             ["@goldstack/utils-terraform", "npm:0.3.70"],\
             ["aws-sdk", "npm:2.1055.0"],\
-            ["testcontainers", "npm:8.10.0"],\
+            ["testcontainers", "npm:8.10.1"],\
             ["umzug", "npm:3.1.1"]\
           ],\
           "linkType": "HARD"\
@@ -8628,10 +8628,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["testcontainers", [\
-        ["npm:8.10.0", {\
-          "packageLocation": "./.yarn/cache/testcontainers-npm-8.10.0-2f7c1336c3-aae0d505eb.zip/node_modules/testcontainers/",\
+        ["npm:8.10.1", {\
+          "packageLocation": "./.yarn/cache/testcontainers-npm-8.10.1-07c90ca80f-9eda77d6b5.zip/node_modules/testcontainers/",\
           "packageDependencies": [\
-            ["testcontainers", "npm:8.10.0"],\
+            ["testcontainers", "npm:8.10.1"],\
             ["@balena/dockerignore", "npm:1.0.2"],\
             ["@types/archiver", "npm:5.3.1"],\
             ["@types/dockerode", "npm:3.3.9"],\
