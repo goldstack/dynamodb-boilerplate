@@ -53,7 +53,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-yaml", "npm:0.5.0"],\
             ["nodemon", "npm:2.0.15"],\
             ["prettier", "npm:2.2.1"],\
-            ["react", "npm:17.0.2"],\
+            ["react", "npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
@@ -1142,7 +1142,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@goldstack/utils-package-config-embedded", "npm:0.4.4"],\
             ["@goldstack/utils-terraform", "npm:0.3.70"],\
             ["aws-sdk", "npm:2.1055.0"],\
-            ["testcontainers", "npm:8.10.1"],\
+            ["testcontainers", "npm:8.11.0"],\
             ["umzug", "npm:3.1.1"]\
           ],\
           "linkType": "HARD"\
@@ -7512,7 +7512,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-yaml", "npm:0.5.0"],\
             ["nodemon", "npm:2.0.15"],\
             ["prettier", "npm:2.2.1"],\
-            ["react", "npm:17.0.2"],\
+            ["react", "npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
@@ -7663,12 +7663,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["react", [\
-        ["npm:17.0.2", {\
-          "packageLocation": "./.yarn/cache/react-npm-17.0.2-99ba37d931-b254cc17ce.zip/node_modules/react/",\
+        ["npm:18.2.0", {\
+          "packageLocation": "./.yarn/cache/react-npm-18.2.0-1eae08fee2-88e38092da.zip/node_modules/react/",\
           "packageDependencies": [\
-            ["react", "npm:17.0.2"],\
-            ["loose-envify", "npm:1.4.0"],\
-            ["object-assign", "npm:4.1.1"]\
+            ["react", "npm:18.2.0"],\
+            ["loose-envify", "npm:1.4.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8628,10 +8627,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["testcontainers", [\
-        ["npm:8.10.1", {\
-          "packageLocation": "./.yarn/cache/testcontainers-npm-8.10.1-07c90ca80f-9eda77d6b5.zip/node_modules/testcontainers/",\
+        ["npm:8.11.0", {\
+          "packageLocation": "./.yarn/cache/testcontainers-npm-8.11.0-96dadaf83a-2e94564f96.zip/node_modules/testcontainers/",\
           "packageDependencies": [\
-            ["testcontainers", "npm:8.10.1"],\
+            ["testcontainers", "npm:8.11.0"],\
             ["@balena/dockerignore", "npm:1.0.2"],\
             ["@types/archiver", "npm:5.3.1"],\
             ["@types/dockerode", "npm:3.3.9"],\
