@@ -707,11 +707,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-dynamodb-cli@npm:0.4.8":
-  version: 0.4.8
-  resolution: "@goldstack/template-dynamodb-cli@npm:0.4.8"
+"@goldstack/template-dynamodb-cli@npm:0.4.9":
+  version: 0.4.9
+  resolution: "@goldstack/template-dynamodb-cli@npm:0.4.9"
   dependencies:
-    "@goldstack/template-dynamodb": 0.1.17
+    "@goldstack/template-dynamodb": 0.1.18
     "@goldstack/utils-cli": 0.2.15
     "@goldstack/utils-package": 0.3.41
     "@goldstack/utils-package-config": 0.3.42
@@ -724,13 +724,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-dynamodb: ./bin/template
-  checksum: 3fe38a63013362632db81310aac17d96fd7df1780f0d4261067b3f972564b1dcb551b1e358764e5b35539db3fd32a1ae238724ab1513a33ef7e0751f57176166
+  checksum: d2fe63a6456a877e87e09ced7affa81b4882a11e13c85b7ab046054b37b826e235a22e684bfafa15d27d3309ba58ddaeb8b49f85cd6ef0f55a3ea09f1ff27781
   languageName: node
   linkType: hard
 
-"@goldstack/template-dynamodb@npm:0.1.17":
-  version: 0.1.17
-  resolution: "@goldstack/template-dynamodb@npm:0.1.17"
+"@goldstack/template-dynamodb@npm:0.1.18":
+  version: 0.1.18
+  resolution: "@goldstack/template-dynamodb@npm:0.1.18"
   dependencies:
     "@aws-sdk/util-dynamodb": ^3.87.0
     "@goldstack/infra": 0.3.38
@@ -742,7 +742,7 @@ __metadata:
     aws-sdk: 2.1055.0
     testcontainers: ^8.10.1
     umzug: ^3.1.1
-  checksum: b31234a0b147bd538ac568b910d9d8c53095b89eed8a3825286ccb29e1a5636e788d0df61299f2c9f91f0544bbcaa8a7031dd63183ea6c5e5aa5628364bcc07a
+  checksum: a0f783e4c83a6da863b1ebbf2f1ad311b98dda5802a9abce8251e9cf1d8371765776cef6297d2401d3193689d8fe5ea0351bcfb2855815241e96d2235c463e60
   languageName: node
   linkType: hard
 
@@ -3048,8 +3048,8 @@ __metadata:
   resolution: "dynamodb-1@workspace:packages/dynamodb-1"
   dependencies:
     "@aws-sdk/util-dynamodb": ^3.87.0
-    "@goldstack/template-dynamodb": 0.1.17
-    "@goldstack/template-dynamodb-cli": 0.4.8
+    "@goldstack/template-dynamodb": 0.1.18
+    "@goldstack/template-dynamodb-cli": 0.4.9
     "@types/jest": ^27.5.1
     "@types/node": ^17.0.33
     aws-sdk: 2.1055.0
@@ -3058,7 +3058,7 @@ __metadata:
     rimraf: ^3.0.2
     source-map-support: ^0.5.21
     ts-jest: ^28.0.2
-    ts-node: ^10.8.0
+    ts-node: ^10.9.1
     typescript: ^4.7.4
     umzug: ^3.1.1
   languageName: unknown
@@ -7395,9 +7395,9 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.8.0":
-  version: 10.8.0
-  resolution: "ts-node@npm:10.8.0"
+"ts-node@npm:^10.9.1":
+  version: 10.9.1
+  resolution: "ts-node@npm:10.9.1"
   dependencies:
     "@cspotcode/source-map-support": ^0.8.0
     "@tsconfig/node10": ^1.0.7
@@ -7429,7 +7429,7 @@ resolve@^1.20.0:
     ts-node-script: dist/bin-script.js
     ts-node-transpile-only: dist/bin-transpile.js
     ts-script: dist/bin-script-deprecated.js
-  checksum: 1c22dc8dd80d0ba4dd4250b82cc032b63f6fbe8c87f8197cef43e7f9e2d43f5b333b445ed712e3006e24119257b4bff2c46605f7da61ab6f5e9514885d296f0c
+  checksum: 090adff1302ab20bd3486e6b4799e90f97726ed39e02b39e566f8ab674fd5bd5f727f43615debbfc580d33c6d9d1c6b1b3ce7d8e3cca3e20530a145ffa232c35
   languageName: node
   linkType: hard
 
