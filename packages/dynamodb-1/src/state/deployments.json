@@ -5,12 +5,12 @@
       "table_arn": {
         "sensitive": false,
         "type": "string",
-        "value": "arn:aws:dynamodb:us-west-2:475629728374:table/goldstack-ci-test-dynamodb-1660254844858"
+        "value": "arn:aws:dynamodb:us-west-2:475629728374:table/goldstack-ci-test-dynamodb-1660257806527"
       },
       "table_name": {
         "sensitive": false,
         "type": "string",
-        "value": "goldstack-ci-test-dynamodb-1660254844858"
+        "value": "goldstack-ci-test-dynamodb-1660257806527"
       }
     }
   }
