@@ -707,11 +707,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-dynamodb-cli@npm:0.4.9":
-  version: 0.4.9
-  resolution: "@goldstack/template-dynamodb-cli@npm:0.4.9"
+"@goldstack/template-dynamodb-cli@npm:0.4.10":
+  version: 0.4.10
+  resolution: "@goldstack/template-dynamodb-cli@npm:0.4.10"
   dependencies:
-    "@goldstack/template-dynamodb": 0.1.18
+    "@goldstack/template-dynamodb": 0.1.19
     "@goldstack/utils-cli": 0.2.15
     "@goldstack/utils-package": 0.3.41
     "@goldstack/utils-package-config": 0.3.42
@@ -724,13 +724,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-dynamodb: ./bin/template
-  checksum: d2fe63a6456a877e87e09ced7affa81b4882a11e13c85b7ab046054b37b826e235a22e684bfafa15d27d3309ba58ddaeb8b49f85cd6ef0f55a3ea09f1ff27781
+  checksum: 261deae46569b8d288b7e02a05b0954235fb3388e9f9ff12464bc251ebf82161e783c65f628e6793237c6dca0a42ea5f6d24b029643cc7bc6ec494c29fb202ae
   languageName: node
   linkType: hard
 
-"@goldstack/template-dynamodb@npm:0.1.18":
-  version: 0.1.18
-  resolution: "@goldstack/template-dynamodb@npm:0.1.18"
+"@goldstack/template-dynamodb@npm:0.1.19":
+  version: 0.1.19
+  resolution: "@goldstack/template-dynamodb@npm:0.1.19"
   dependencies:
     "@aws-sdk/util-dynamodb": ^3.87.0
     "@goldstack/infra": 0.3.38
@@ -742,7 +742,7 @@ __metadata:
     aws-sdk: 2.1055.0
     testcontainers: ^8.10.1
     umzug: ^3.1.1
-  checksum: a0f783e4c83a6da863b1ebbf2f1ad311b98dda5802a9abce8251e9cf1d8371765776cef6297d2401d3193689d8fe5ea0351bcfb2855815241e96d2235c463e60
+  checksum: 36ac0f7459a61d2654420ae95d5b24681988970652ac2669fde1a24636cff5e38688a13133dd630f8e806ffa4bf8ee3c89979efd6f3877b655d455cddbed3ffb
   languageName: node
   linkType: hard
 
@@ -3048,8 +3048,8 @@ __metadata:
   resolution: "dynamodb-1@workspace:packages/dynamodb-1"
   dependencies:
     "@aws-sdk/util-dynamodb": ^3.87.0
-    "@goldstack/template-dynamodb": 0.1.18
-    "@goldstack/template-dynamodb-cli": 0.4.9
+    "@goldstack/template-dynamodb": 0.1.19
+    "@goldstack/template-dynamodb-cli": 0.4.10
     "@types/jest": ^27.5.1
     "@types/node": ^17.0.33
     aws-sdk: 2.1055.0
