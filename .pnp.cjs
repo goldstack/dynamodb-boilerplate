@@ -1130,10 +1130,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-dynamodb", [\
-        ["npm:0.1.19", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-npm-0.1.19-24b847aac5-36ac0f7459.zip/node_modules/@goldstack/template-dynamodb/",\
+        ["npm:0.1.20", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-npm-0.1.20-9ae8617bd8-67c9595d18.zip/node_modules/@goldstack/template-dynamodb/",\
           "packageDependencies": [\
-            ["@goldstack/template-dynamodb", "npm:0.1.19"],\
+            ["@goldstack/template-dynamodb", "npm:0.1.20"],\
             ["@aws-sdk/util-dynamodb", "npm:3.87.0"],\
             ["@goldstack/infra", "npm:0.3.38"],\
             ["@goldstack/infra-aws", "npm:0.3.47"],\
@@ -1142,18 +1142,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@goldstack/utils-package-config-embedded", "npm:0.4.5"],\
             ["@goldstack/utils-terraform", "npm:0.3.71"],\
             ["aws-sdk", "npm:2.1055.0"],\
-            ["testcontainers", "npm:8.10.1"],\
+            ["testcontainers", "npm:8.12.0"],\
             ["umzug", "npm:3.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@goldstack/template-dynamodb-cli", [\
-        ["npm:0.4.10", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.4.10-8ca311f83d-261deae465.zip/node_modules/@goldstack/template-dynamodb-cli/",\
+        ["npm:0.4.11", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.4.11-7bf452187c-09f5f3a3f3.zip/node_modules/@goldstack/template-dynamodb-cli/",\
           "packageDependencies": [\
-            ["@goldstack/template-dynamodb-cli", "npm:0.4.10"],\
-            ["@goldstack/template-dynamodb", "npm:0.1.19"],\
+            ["@goldstack/template-dynamodb-cli", "npm:0.4.11"],\
+            ["@goldstack/template-dynamodb", "npm:0.1.20"],\
             ["@goldstack/utils-cli", "npm:0.2.15"],\
             ["@goldstack/utils-package", "npm:0.3.41"],\
             ["@goldstack/utils-package-config", "npm:0.3.42"],\
@@ -3893,8 +3893,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["dynamodb-1", "workspace:packages/dynamodb-1"],\
             ["@aws-sdk/util-dynamodb", "npm:3.87.0"],\
-            ["@goldstack/template-dynamodb", "npm:0.1.19"],\
-            ["@goldstack/template-dynamodb-cli", "npm:0.4.10"],\
+            ["@goldstack/template-dynamodb", "npm:0.1.20"],\
+            ["@goldstack/template-dynamodb-cli", "npm:0.4.11"],\
             ["@types/jest", "npm:27.5.1"],\
             ["@types/node", "npm:17.0.33"],\
             ["aws-sdk", "npm:2.1055.0"],\
@@ -8627,10 +8627,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["testcontainers", [\
-        ["npm:8.10.1", {\
-          "packageLocation": "./.yarn/cache/testcontainers-npm-8.10.1-07c90ca80f-9eda77d6b5.zip/node_modules/testcontainers/",\
+        ["npm:8.12.0", {\
+          "packageLocation": "./.yarn/cache/testcontainers-npm-8.12.0-d7f27a2092-b134bf1e4f.zip/node_modules/testcontainers/",\
           "packageDependencies": [\
-            ["testcontainers", "npm:8.10.1"],\
+            ["testcontainers", "npm:8.12.0"],\
             ["@balena/dockerignore", "npm:1.0.2"],\
             ["@types/archiver", "npm:5.3.1"],\
             ["@types/dockerode", "npm:3.3.9"],\

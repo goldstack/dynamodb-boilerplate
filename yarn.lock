@@ -707,11 +707,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-dynamodb-cli@npm:0.4.10":
-  version: 0.4.10
-  resolution: "@goldstack/template-dynamodb-cli@npm:0.4.10"
+"@goldstack/template-dynamodb-cli@npm:0.4.11":
+  version: 0.4.11
+  resolution: "@goldstack/template-dynamodb-cli@npm:0.4.11"
   dependencies:
-    "@goldstack/template-dynamodb": 0.1.19
+    "@goldstack/template-dynamodb": 0.1.20
     "@goldstack/utils-cli": 0.2.15
     "@goldstack/utils-package": 0.3.41
     "@goldstack/utils-package-config": 0.3.42
@@ -724,13 +724,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-dynamodb: ./bin/template
-  checksum: 261deae46569b8d288b7e02a05b0954235fb3388e9f9ff12464bc251ebf82161e783c65f628e6793237c6dca0a42ea5f6d24b029643cc7bc6ec494c29fb202ae
+  checksum: 09f5f3a3f3338a09c47f9313cbcf615356b75c44e8d0c0698448241be3e714f4c62a6eeaba7a61958d9d265285378e43ff9bae712fd09b0296fc8cd78e8bc96e
   languageName: node
   linkType: hard
 
-"@goldstack/template-dynamodb@npm:0.1.19":
-  version: 0.1.19
-  resolution: "@goldstack/template-dynamodb@npm:0.1.19"
+"@goldstack/template-dynamodb@npm:0.1.20":
+  version: 0.1.20
+  resolution: "@goldstack/template-dynamodb@npm:0.1.20"
   dependencies:
     "@aws-sdk/util-dynamodb": ^3.87.0
     "@goldstack/infra": 0.3.38
@@ -740,9 +740,9 @@ __metadata:
     "@goldstack/utils-package-config-embedded": 0.4.5
     "@goldstack/utils-terraform": 0.3.71
     aws-sdk: 2.1055.0
-    testcontainers: ^8.10.1
+    testcontainers: ^8.12.0
     umzug: ^3.1.1
-  checksum: 36ac0f7459a61d2654420ae95d5b24681988970652ac2669fde1a24636cff5e38688a13133dd630f8e806ffa4bf8ee3c89979efd6f3877b655d455cddbed3ffb
+  checksum: 67c9595d18aab01619b58a492a4e065cd9c16214d65810e6087401f6d33289156301e80b1c5c44605e4b897a8fc00d4a04167bf70eb3a68e267e880f5c6b85da
   languageName: node
   linkType: hard
 
@@ -3048,8 +3048,8 @@ __metadata:
   resolution: "dynamodb-1@workspace:packages/dynamodb-1"
   dependencies:
     "@aws-sdk/util-dynamodb": ^3.87.0
-    "@goldstack/template-dynamodb": 0.1.19
-    "@goldstack/template-dynamodb-cli": 0.4.10
+    "@goldstack/template-dynamodb": 0.1.20
+    "@goldstack/template-dynamodb-cli": 0.4.11
     "@types/jest": ^27.5.1
     "@types/node": ^17.0.33
     aws-sdk: 2.1055.0
@@ -7287,9 +7287,9 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"testcontainers@npm:^8.10.1":
-  version: 8.10.1
-  resolution: "testcontainers@npm:8.10.1"
+"testcontainers@npm:^8.12.0":
+  version: 8.12.0
+  resolution: "testcontainers@npm:8.12.0"
   dependencies:
     "@balena/dockerignore": ^1.0.2
     "@types/archiver": ^5.3.1
@@ -7303,7 +7303,7 @@ resolve@^1.20.0:
     properties-reader: ^2.2.0
     ssh-remote-port-forward: ^1.0.4
     tar-fs: ^2.1.1
-  checksum: 9eda77d6b5efc36358e0a35644129079748ab399f80f9a8c40cb9d8a8594109fa49394c69c3da3e2250789d460f85555a073c4bb08c552db603e3e33446a66d2
+  checksum: b134bf1e4f4aa2d8e8e4143920ec08d90917d4749d6b329df028ac15969036d109c73b6efe6f461554b92ba7bae1b96b2b6a7cefb1e1323373de3934fd992107
   languageName: node
   linkType: hard
 
