@@ -451,20 +451,8 @@
     </p>
     <pre
       class="language-typescript language-typescript language-typescript"
-    ><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span> <span class="token maybe-class-name">Table</span><span class="token punctuation">,</span> <span class="token maybe-class-name">Entity</span> <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'dynamodb-toolbox'</span><span class="token punctuation">;</span>
+    ><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span> <span class="token maybe-class-name">Table</span> <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'dynamodb-toolbox'</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> <span class="token maybe-class-name">DynamoDB</span> <span class="token keyword">from</span> <span class="token string">'aws-sdk/clients/dynamodb'</span><span class="token punctuation">;</span>
-
-<span class="token keyword">export</span> <span class="token keyword">type</span> <span class="token maybe-class-name">User</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
-  pk<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
-  sk<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
-  name<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
-  emailVerified<span class="token punctuation">:</span> <span class="token builtin">boolean</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token punctuation">;</span>
-
-<span class="token keyword">export</span> <span class="token keyword">type</span> <span class="token maybe-class-name">UserKey</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
-  pk<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
-  sk<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token punctuation">;</span>
 
 <span class="token keyword">export</span> <span class="token keyword">function</span> createTable<span class="token operator">&#x3C;</span><span class="token maybe-class-name">Name</span> <span class="token keyword">extends</span> <span class="token class-name">string</span><span class="token operator">></span><span class="token punctuation">(</span>
   dynamoDB<span class="token punctuation">:</span> <span class="token maybe-class-name">DynamoDB</span><span class="token punctuation">.</span><span class="token property-access"><span class="token maybe-class-name">DocumentClient</span></span><span class="token punctuation">,</span>
@@ -478,22 +466,15 @@
   <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 
-<span class="token keyword">export</span> <span class="token keyword">function</span> <span class="token maybe-class-name">UserEntity</span><span class="token operator">&#x3C;</span><span class="token maybe-class-name">Name</span> <span class="token keyword">extends</span> <span class="token class-name">string</span><span class="token operator">></span><span class="token punctuation">(</span>
-  table<span class="token punctuation">:</span> <span class="token maybe-class-name">Table</span><span class="token operator">&#x3C;</span><span class="token maybe-class-name">Name</span><span class="token punctuation">,</span> <span class="token string">'pk'</span><span class="token punctuation">,</span> <span class="token string">'sk'</span><span class="token operator">></span>
-<span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token maybe-class-name">Entity</span><span class="token operator">&#x3C;</span><span class="token maybe-class-name">User</span><span class="token punctuation">,</span> <span class="token maybe-class-name">UserKey</span><span class="token punctuation">,</span> <span class="token keyword">typeof</span> table<span class="token operator">></span> <span class="token punctuation">{</span>
-  <span class="token keyword">const</span> e <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Entity</span><span class="token operator">&#x3C;</span><span class="token maybe-class-name">User</span><span class="token punctuation">,</span> <span class="token maybe-class-name">UserKey</span><span class="token punctuation">,</span> <span class="token keyword">typeof</span> table<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-    name<span class="token punctuation">:</span> <span class="token string">'User'</span><span class="token punctuation">,</span>
-    attributes<span class="token punctuation">:</span> <span class="token punctuation">{</span>
-      pk<span class="token punctuation">:</span> <span class="token punctuation">{</span> partitionKey<span class="token punctuation">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
-      sk<span class="token punctuation">:</span> <span class="token punctuation">{</span> hidden<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> sortKey<span class="token punctuation">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
-      name<span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token keyword">type</span><span class="token punctuation">:</span> <span class="token string">'string'</span><span class="token punctuation">,</span> required<span class="token punctuation">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
-      emailVerified<span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token keyword">type</span><span class="token punctuation">:</span> <span class="token string">'boolean'</span><span class="token punctuation">,</span> required<span class="token punctuation">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    table<span class="token punctuation">,</span>
-  <span class="token punctuation">}</span> <span class="token keyword">as</span> <span class="token keyword">const</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-  <span class="token keyword">return</span> e<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token maybe-class-name">UserEntity</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  name<span class="token punctuation">:</span> <span class="token string">'User'</span><span class="token punctuation">,</span>
+  attributes<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    email<span class="token punctuation">:</span> <span class="token punctuation">{</span> partitionKey<span class="token punctuation">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token keyword">type</span><span class="token punctuation">:</span> <span class="token punctuation">{</span> sortKey<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token keyword">default</span><span class="token punctuation">:</span> <span class="token string">'user'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    name<span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token keyword">type</span><span class="token punctuation">:</span> <span class="token string">'string'</span><span class="token punctuation">,</span> required<span class="token punctuation">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    emailVerified<span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token keyword">type</span><span class="token punctuation">:</span> <span class="token string">'boolean'</span><span class="token punctuation">,</span> required<span class="token punctuation">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span> <span class="token keyword">as</span> <span class="token keyword">const</span><span class="token punctuation">;</span>
 </code></pre>
     <p>
       You can edit and extend these entities. Note though that it is recommended
@@ -648,26 +629,32 @@
     </p>
     <pre
       class="language-typescript language-typescript language-typescript"
-    ><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span>
-  <span class="token maybe-class-name">User</span><span class="token punctuation">,</span>
-  <span class="token maybe-class-name">UserEntity</span><span class="token punctuation">,</span>
-  <span class="token maybe-class-name">UserKey</span>
-  connectTable<span class="token punctuation">,</span>
-<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'your-dynamodb-package'</span><span class="token punctuation">;</span>
+    ><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span> <span class="token maybe-class-name">UserEntity</span><span class="token punctuation">,</span> connectTable <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'your-dynamodb-package'</span><span class="token punctuation">;</span>
 </code></pre>
     <p>You can then use the return object to instantiate your entities:</p>
     <pre
       class="language-typescript language-typescript language-typescript"
     ><code class="language-typescript"><span class="token keyword">const</span> table <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">connectTable</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">const</span> <span class="token maybe-class-name">Users</span> <span class="token operator">=</span> <span class="token function"><span class="token maybe-class-name">UserEntity</span></span><span class="token punctuation">(</span>table<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token maybe-class-name">Users</span> <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Entity</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token spread operator">...</span><span class="token method function property-access">deepCopy</span><span class="token punctuation">(</span><span class="token maybe-class-name">UserEntity</span><span class="token punctuation">)</span><span class="token punctuation">,</span> table <span class="token punctuation">}</span> <span class="token keyword">as</span> <span class="token keyword">const</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
 <span class="token keyword">await</span> <span class="token maybe-class-name">Users</span><span class="token punctuation">.</span><span class="token method function property-access">put</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-  pk<span class="token punctuation">:</span> <span class="token string">'joe@email.com'</span><span class="token punctuation">,</span>
-  sk<span class="token punctuation">:</span> <span class="token string">'admin'</span><span class="token punctuation">,</span>
+  email<span class="token punctuation">:</span> <span class="token string">'joe@email.com'</span><span class="token punctuation">,</span>
   name<span class="token punctuation">:</span> <span class="token string">'Joe'</span><span class="token punctuation">,</span>
   emailVerified<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
+    <p>
+      Note that the attributes defined in
+      <code class="inline">UserEntity</code> need to be copied due to a bug in
+      DynamoDBToolbox:
+      <a
+        href="https://github.com/jeremydaly/dynamodb-toolbox/issues/310"
+        class="absolute"
+        target="_blank"
+        rel="noopener noreferrer"
+        >jeremydaly/dynamodb-toolbox#310</a
+      >.
+    </p>
     <p>
       If you want to use the plain Node.js SDK method, you can utilise the
       methods <code class="inline">getTableName</code> and
