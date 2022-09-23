@@ -1130,10 +1130,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-dynamodb", [\
-        ["npm:0.2.3", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-npm-0.2.3-9a02239de4-d985a7e735.zip/node_modules/@goldstack/template-dynamodb/",\
+        ["npm:0.2.4", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-npm-0.2.4-d7b66468e8-dc2ce6d19e.zip/node_modules/@goldstack/template-dynamodb/",\
           "packageDependencies": [\
-            ["@goldstack/template-dynamodb", "npm:0.2.3"],\
+            ["@goldstack/template-dynamodb", "npm:0.2.4"],\
             ["@aws-sdk/util-dynamodb", "npm:3.87.0"],\
             ["@goldstack/infra", "npm:0.4.2"],\
             ["@goldstack/infra-aws", "npm:0.4.3"],\
@@ -1149,11 +1149,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-dynamodb-cli", [\
-        ["npm:0.5.3", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.5.3-428d2df5f6-0666dd0f33.zip/node_modules/@goldstack/template-dynamodb-cli/",\
+        ["npm:0.5.4", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.5.4-61b422fe11-2267870550.zip/node_modules/@goldstack/template-dynamodb-cli/",\
           "packageDependencies": [\
-            ["@goldstack/template-dynamodb-cli", "npm:0.5.3"],\
-            ["@goldstack/template-dynamodb", "npm:0.2.3"],\
+            ["@goldstack/template-dynamodb-cli", "npm:0.5.4"],\
+            ["@goldstack/template-dynamodb", "npm:0.2.4"],\
             ["@goldstack/utils-cli", "npm:0.3.2"],\
             ["@goldstack/utils-package", "npm:0.4.2"],\
             ["@goldstack/utils-package-config", "npm:0.4.2"],\
@@ -2788,10 +2788,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:2.1218.0", {\
-          "packageLocation": "./.yarn/cache/aws-sdk-npm-2.1218.0-546287d9ad-e1bb41bf8b.zip/node_modules/aws-sdk/",\
+        ["npm:2.1222.0", {\
+          "packageLocation": "./.yarn/cache/aws-sdk-npm-2.1222.0-957e2db879-2dc98ef933.zip/node_modules/aws-sdk/",\
           "packageDependencies": [\
-            ["aws-sdk", "npm:2.1218.0"],\
+            ["aws-sdk", "npm:2.1222.0"],\
             ["buffer", "npm:4.9.2"],\
             ["events", "npm:1.1.1"],\
             ["ieee754", "npm:1.1.13"],\
@@ -4186,8 +4186,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["dynamodb-1", "workspace:packages/dynamodb-1"],\
             ["@aws-sdk/util-dynamodb", "npm:3.87.0"],\
-            ["@goldstack/template-dynamodb", "npm:0.2.3"],\
-            ["@goldstack/template-dynamodb-cli", "npm:0.5.3"],\
+            ["@goldstack/template-dynamodb", "npm:0.2.4"],\
+            ["@goldstack/template-dynamodb-cli", "npm:0.5.4"],\
             ["@types/ejs", "npm:3.1.1"],\
             ["@types/jest", "npm:29.0.1"],\
             ["@types/node", "npm:18.7.13"],\
@@ -4213,7 +4213,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["dynamodb-admin", "npm:4.4.0"],\
             ["argparse", "npm:2.0.1"],\
-            ["aws-sdk", "npm:2.1218.0"],\
+            ["aws-sdk", "npm:2.1222.0"],\
             ["body-parser", "npm:1.20.0"],\
             ["cli-color", "npm:2.0.0"],\
             ["cookie-parser", "npm:1.4.5"],\
@@ -4430,10 +4430,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:1.20.2", {\
-          "packageLocation": "./.yarn/cache/es-abstract-npm-1.20.2-b99e5aa2aa-ab893dd1f8.zip/node_modules/es-abstract/",\
+        ["npm:1.20.3", {\
+          "packageLocation": "./.yarn/cache/es-abstract-npm-1.20.3-716a6119bf-225f24966e.zip/node_modules/es-abstract/",\
           "packageDependencies": [\
-            ["es-abstract", "npm:1.20.2"],\
+            ["es-abstract", "npm:1.20.3"],\
             ["call-bind", "npm:1.0.2"],\
             ["es-to-primitive", "npm:1.2.1"],\
             ["function-bind", "npm:1.1.1"],\
@@ -4454,6 +4454,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["object-keys", "npm:1.1.1"],\
             ["object.assign", "npm:4.1.4"],\
             ["regexp.prototype.flags", "npm:1.4.3"],\
+            ["safe-regex-test", "npm:1.0.0"],\
             ["string.prototype.trimend", "npm:1.0.5"],\
             ["string.prototype.trimstart", "npm:1.0.5"],\
             ["unbox-primitive", "npm:1.0.2"]\
@@ -5342,7 +5343,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["function.prototype.name", "npm:1.1.5"],\
             ["call-bind", "npm:1.0.2"],\
             ["define-properties", "npm:1.1.3"],\
-            ["es-abstract", "npm:1.20.2"],\
+            ["es-abstract", "npm:1.20.3"],\
             ["functions-have-names", "npm:1.2.3"]\
           ],\
           "linkType": "HARD"\
@@ -6440,7 +6441,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-typed-array", "npm:1.1.9"],\
             ["available-typed-arrays", "npm:1.0.5"],\
             ["call-bind", "npm:1.0.2"],\
-            ["es-abstract", "npm:1.20.2"],\
+            ["es-abstract", "npm:1.20.3"],\
             ["for-each", "npm:0.3.3"],\
             ["has-tostringtag", "npm:1.0.0"]\
           ],\
@@ -9139,6 +9140,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["safe-regex-test", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/safe-regex-test-npm-1.0.0-e94a09b84e-bc566d8beb.zip/node_modules/safe-regex-test/",\
+          "packageDependencies": [\
+            ["safe-regex-test", "npm:1.0.0"],\
+            ["call-bind", "npm:1.0.2"],\
+            ["get-intrinsic", "npm:1.1.3"],\
+            ["is-regex", "npm:1.1.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["safer-buffer", [\
         ["npm:2.1.2", {\
           "packageLocation": "./.yarn/cache/safer-buffer-npm-2.1.2-8d5c0b705e-cab8f25ae6.zip/node_modules/safer-buffer/",\
@@ -9614,7 +9627,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["string.prototype.trimend", "npm:1.0.5"],\
             ["call-bind", "npm:1.0.2"],\
             ["define-properties", "npm:1.1.4"],\
-            ["es-abstract", "npm:1.20.2"]\
+            ["es-abstract", "npm:1.20.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -9668,7 +9681,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["string.prototype.trimstart", "npm:1.0.5"],\
             ["call-bind", "npm:1.0.2"],\
             ["define-properties", "npm:1.1.4"],\
-            ["es-abstract", "npm:1.20.2"]\
+            ["es-abstract", "npm:1.20.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10563,7 +10576,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["which-typed-array", "npm:1.1.8"],\
             ["available-typed-arrays", "npm:1.0.5"],\
             ["call-bind", "npm:1.0.2"],\
-            ["es-abstract", "npm:1.20.2"],\
+            ["es-abstract", "npm:1.20.3"],\
             ["for-each", "npm:0.3.3"],\
             ["has-tostringtag", "npm:1.0.0"],\
             ["is-typed-array", "npm:1.1.9"]\
