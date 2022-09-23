@@ -1100,16 +1100,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/infra-aws", [\
-        ["npm:0.4.3", {\
-          "packageLocation": "./.yarn/cache/@goldstack-infra-aws-npm-0.4.3-f3dd51353f-e989a19228.zip/node_modules/@goldstack/infra-aws/",\
+        ["npm:0.4.4", {\
+          "packageLocation": "./.yarn/cache/@goldstack-infra-aws-npm-0.4.4-307e597f17-a2ca084a36.zip/node_modules/@goldstack/infra-aws/",\
           "packageDependencies": [\
-            ["@goldstack/infra-aws", "npm:0.4.3"],\
+            ["@goldstack/infra-aws", "npm:0.4.4"],\
             ["@goldstack/infra", "npm:0.4.2"],\
             ["@goldstack/utils-config", "npm:0.4.2"],\
             ["@goldstack/utils-log", "npm:0.3.2"],\
             ["@goldstack/utils-package", "npm:0.4.2"],\
             ["@goldstack/utils-sh", "npm:0.5.2"],\
-            ["aws-sdk", "npm:2.1055.0"],\
+            ["aws-sdk", "npm:2.1222.0"],\
             ["axios", "npm:0.21.2"],\
             ["handlebars", "npm:4.7.7"]\
           ],\
@@ -1130,18 +1130,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-dynamodb", [\
-        ["npm:0.2.4", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-npm-0.2.4-d7b66468e8-dc2ce6d19e.zip/node_modules/@goldstack/template-dynamodb/",\
+        ["npm:0.2.5", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-npm-0.2.5-a49edfe457-5481173db8.zip/node_modules/@goldstack/template-dynamodb/",\
           "packageDependencies": [\
-            ["@goldstack/template-dynamodb", "npm:0.2.4"],\
+            ["@goldstack/template-dynamodb", "npm:0.2.5"],\
             ["@aws-sdk/util-dynamodb", "npm:3.87.0"],\
             ["@goldstack/infra", "npm:0.4.2"],\
-            ["@goldstack/infra-aws", "npm:0.4.3"],\
+            ["@goldstack/infra-aws", "npm:0.4.4"],\
             ["@goldstack/utils-esbuild", "npm:0.5.2"],\
             ["@goldstack/utils-package", "npm:0.4.2"],\
             ["@goldstack/utils-package-config-embedded", "npm:0.5.2"],\
-            ["@goldstack/utils-terraform", "npm:0.4.3"],\
-            ["aws-sdk", "npm:2.1055.0"],\
+            ["@goldstack/utils-terraform", "npm:0.4.4"],\
+            ["aws-sdk", "npm:2.1222.0"],\
             ["testcontainers", "npm:8.12.0"],\
             ["umzug", "npm:3.1.1"]\
           ],\
@@ -1149,17 +1149,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-dynamodb-cli", [\
-        ["npm:0.5.4", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.5.4-61b422fe11-2267870550.zip/node_modules/@goldstack/template-dynamodb-cli/",\
+        ["npm:0.5.5", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.5.5-85cb8299f3-54e5d6656a.zip/node_modules/@goldstack/template-dynamodb-cli/",\
           "packageDependencies": [\
-            ["@goldstack/template-dynamodb-cli", "npm:0.5.4"],\
-            ["@goldstack/template-dynamodb", "npm:0.2.4"],\
+            ["@goldstack/template-dynamodb-cli", "npm:0.5.5"],\
+            ["@goldstack/template-dynamodb", "npm:0.2.5"],\
             ["@goldstack/utils-cli", "npm:0.3.2"],\
             ["@goldstack/utils-package", "npm:0.4.2"],\
             ["@goldstack/utils-package-config", "npm:0.4.2"],\
             ["@goldstack/utils-sh", "npm:0.5.2"],\
-            ["@goldstack/utils-terraform", "npm:0.4.3"],\
-            ["@goldstack/utils-terraform-aws", "npm:0.4.3"],\
+            ["@goldstack/utils-terraform", "npm:0.4.4"],\
+            ["@goldstack/utils-terraform-aws", "npm:0.4.4"],\
             ["source-map-support", "npm:0.5.21"],\
             ["umzug", "npm:3.1.1"],\
             ["yargs", "npm:17.5.1"]\
@@ -1273,12 +1273,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/utils-terraform", [\
-        ["npm:0.4.3", {\
-          "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.3-95cef30e4b-56241b5b3c.zip/node_modules/@goldstack/utils-terraform/",\
+        ["npm:0.4.4", {\
+          "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.4-3403c54715-77e793a1a8.zip/node_modules/@goldstack/utils-terraform/",\
           "packageDependencies": [\
-            ["@goldstack/utils-terraform", "npm:0.4.3"],\
+            ["@goldstack/utils-terraform", "npm:0.4.4"],\
             ["@goldstack/infra", "npm:0.4.2"],\
-            ["@goldstack/infra-aws", "npm:0.4.3"],\
+            ["@goldstack/infra-aws", "npm:0.4.4"],\
             ["@goldstack/utils-config", "npm:0.4.2"],\
             ["@goldstack/utils-docker", "npm:0.4.2"],\
             ["@goldstack/utils-log", "npm:0.3.2"],\
@@ -1292,17 +1292,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/utils-terraform-aws", [\
-        ["npm:0.4.3", {\
-          "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.3-525ece08ec-6fcd45361f.zip/node_modules/@goldstack/utils-terraform-aws/",\
+        ["npm:0.4.4", {\
+          "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.4-280b0b020b-c870aebdbc.zip/node_modules/@goldstack/utils-terraform-aws/",\
           "packageDependencies": [\
-            ["@goldstack/utils-terraform-aws", "npm:0.4.3"],\
-            ["@goldstack/infra-aws", "npm:0.4.3"],\
+            ["@goldstack/utils-terraform-aws", "npm:0.4.4"],\
+            ["@goldstack/infra-aws", "npm:0.4.4"],\
             ["@goldstack/utils-config", "npm:0.4.2"],\
             ["@goldstack/utils-log", "npm:0.3.2"],\
             ["@goldstack/utils-package", "npm:0.4.2"],\
             ["@goldstack/utils-sh", "npm:0.5.2"],\
-            ["@goldstack/utils-terraform", "npm:0.4.3"],\
-            ["aws-sdk", "npm:2.1055.0"]\
+            ["@goldstack/utils-terraform", "npm:0.4.4"],\
+            ["aws-sdk", "npm:2.1222.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2772,22 +2772,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["aws-sdk", [\
-        ["npm:2.1055.0", {\
-          "packageLocation": "./.yarn/cache/aws-sdk-npm-2.1055.0-7a5627cede-a54b043535.zip/node_modules/aws-sdk/",\
-          "packageDependencies": [\
-            ["aws-sdk", "npm:2.1055.0"],\
-            ["buffer", "npm:4.9.2"],\
-            ["events", "npm:1.1.1"],\
-            ["ieee754", "npm:1.1.13"],\
-            ["jmespath", "npm:0.15.0"],\
-            ["querystring", "npm:0.2.0"],\
-            ["sax", "npm:1.2.1"],\
-            ["url", "npm:0.10.3"],\
-            ["uuid", "npm:3.3.2"],\
-            ["xml2js", "npm:0.4.19"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:2.1222.0", {\
           "packageLocation": "./.yarn/cache/aws-sdk-npm-2.1222.0-957e2db879-2dc98ef933.zip/node_modules/aws-sdk/",\
           "packageDependencies": [\
@@ -4186,12 +4170,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["dynamodb-1", "workspace:packages/dynamodb-1"],\
             ["@aws-sdk/util-dynamodb", "npm:3.87.0"],\
-            ["@goldstack/template-dynamodb", "npm:0.2.4"],\
-            ["@goldstack/template-dynamodb-cli", "npm:0.5.4"],\
+            ["@goldstack/template-dynamodb", "npm:0.2.5"],\
+            ["@goldstack/template-dynamodb-cli", "npm:0.5.5"],\
             ["@types/ejs", "npm:3.1.1"],\
             ["@types/jest", "npm:29.0.1"],\
             ["@types/node", "npm:18.7.13"],\
-            ["aws-sdk", "npm:2.1055.0"],\
+            ["aws-sdk", "npm:2.1222.0"],\
             ["deep-copy", "npm:1.4.2"],\
             ["dynamodb-admin", "npm:4.4.0"],\
             ["dynamodb-toolbox", "npm:0.4.3"],\
@@ -7186,13 +7170,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["jmespath", [\
-        ["npm:0.15.0", {\
-          "packageLocation": "./.yarn/cache/jmespath-npm-0.15.0-df80ed6dd1-353bb9e69c.zip/node_modules/jmespath/",\
-          "packageDependencies": [\
-            ["jmespath", "npm:0.15.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:0.16.0", {\
           "packageLocation": "./.yarn/cache/jmespath-npm-0.16.0-d47535c65a-2d602493a1.zip/node_modules/jmespath/",\
           "packageDependencies": [\
@@ -10481,13 +10458,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["uuid", [\
-        ["npm:3.3.2", {\
-          "packageLocation": "./.yarn/cache/uuid-npm-3.3.2-62715051ac-8793629d27.zip/node_modules/uuid/",\
-          "packageDependencies": [\
-            ["uuid", "npm:3.3.2"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:8.0.0", {\
           "packageLocation": "./.yarn/cache/uuid-npm-8.0.0-591e3a2e23-56d4e23aa7.zip/node_modules/uuid/",\
           "packageDependencies": [\
