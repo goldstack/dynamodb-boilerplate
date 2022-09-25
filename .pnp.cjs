@@ -2788,6 +2788,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["xml2js", "npm:0.4.19"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:2.1223.0", {\
+          "packageLocation": "./.yarn/cache/aws-sdk-npm-2.1223.0-362f3f78d7-78501bacd7.zip/node_modules/aws-sdk/",\
+          "packageDependencies": [\
+            ["aws-sdk", "npm:2.1223.0"],\
+            ["buffer", "npm:4.9.2"],\
+            ["events", "npm:1.1.1"],\
+            ["ieee754", "npm:1.1.13"],\
+            ["jmespath", "npm:0.16.0"],\
+            ["querystring", "npm:0.2.0"],\
+            ["sax", "npm:1.2.1"],\
+            ["url", "npm:0.10.3"],\
+            ["util", "npm:0.12.4"],\
+            ["uuid", "npm:8.0.0"],\
+            ["xml2js", "npm:0.4.19"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["axios", [\
@@ -4197,7 +4214,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["dynamodb-admin", "npm:4.4.0"],\
             ["argparse", "npm:2.0.1"],\
-            ["aws-sdk", "npm:2.1222.0"],\
+            ["aws-sdk", "npm:2.1223.0"],\
             ["body-parser", "npm:1.20.0"],\
             ["cli-color", "npm:2.0.0"],\
             ["cookie-parser", "npm:1.4.5"],\
