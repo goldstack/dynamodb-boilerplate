@@ -707,9 +707,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-dynamodb-cli@npm:0.5.6":
-  version: 0.5.6
-  resolution: "@goldstack/template-dynamodb-cli@npm:0.5.6"
+"@goldstack/template-dynamodb-cli@npm:0.5.7":
+  version: 0.5.7
+  resolution: "@goldstack/template-dynamodb-cli@npm:0.5.7"
   dependencies:
     "@goldstack/template-dynamodb": 0.2.6
     "@goldstack/utils-cli": 0.3.2
@@ -724,7 +724,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-dynamodb: ./bin/template
-  checksum: 35663fdc2f10996d87d8931aa2eafdfb7775d6eb25e357d8abb352a8e9b03de55f849145e94636ffd85184e9650f464408be351e14bc0cf6de154a325ded9169
+  checksum: 38bbc8730d0aca12805070b9d629770d9d7f7db807dd7e569189b1fb71536f7853bfa2283ba30a416848cc0f76b0c115bf580cbc1c151db4cd87109c8b57ce44
   languageName: node
   linkType: hard
 
@@ -2135,8 +2135,8 @@ __metadata:
   linkType: hard
 
 "aws-sdk@npm:^2.851.0":
-  version: 2.1230.0
-  resolution: "aws-sdk@npm:2.1230.0"
+  version: 2.1231.0
+  resolution: "aws-sdk@npm:2.1231.0"
   dependencies:
     buffer: 4.9.2
     events: 1.1.1
@@ -2148,7 +2148,7 @@ __metadata:
     util: ^0.12.4
     uuid: 8.0.0
     xml2js: 0.4.19
-  checksum: 1f33c0ecd9edaf786064a5ab4c5541a253f861a64b2d8f2b880f205067f9bb02d4581e100f4146a88f0e9ac708a63c8c99177fe6bccf7701188801cc508834d6
+  checksum: 34597bc47b8efa84f0c637f8aea92e01010f282eeb878097cd198f67b9d04110115d949c0e641a799cd9a06e4da57697f0b8a682dd7c2be78c717d21d5c4720a
   languageName: node
   linkType: hard
 
@@ -3312,7 +3312,7 @@ __metadata:
   dependencies:
     "@aws-sdk/util-dynamodb": ^3.87.0
     "@goldstack/template-dynamodb": 0.2.6
-    "@goldstack/template-dynamodb-cli": 0.5.6
+    "@goldstack/template-dynamodb-cli": 0.5.7
     "@types/ejs": ^3
     "@types/jest": ^29.0.1
     "@types/node": ^18.7.13

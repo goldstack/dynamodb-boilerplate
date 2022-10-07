@@ -1149,10 +1149,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-dynamodb-cli", [\
-        ["npm:0.5.6", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.5.6-559a48d633-35663fdc2f.zip/node_modules/@goldstack/template-dynamodb-cli/",\
+        ["npm:0.5.7", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.5.7-2a0f664b25-38bbc8730d.zip/node_modules/@goldstack/template-dynamodb-cli/",\
           "packageDependencies": [\
-            ["@goldstack/template-dynamodb-cli", "npm:0.5.6"],\
+            ["@goldstack/template-dynamodb-cli", "npm:0.5.7"],\
             ["@goldstack/template-dynamodb", "npm:0.2.6"],\
             ["@goldstack/utils-cli", "npm:0.3.2"],\
             ["@goldstack/utils-package", "npm:0.4.2"],\
@@ -2789,10 +2789,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:2.1230.0", {\
-          "packageLocation": "./.yarn/cache/aws-sdk-npm-2.1230.0-1b9ec6b9dd-1f33c0ecd9.zip/node_modules/aws-sdk/",\
+        ["npm:2.1231.0", {\
+          "packageLocation": "./.yarn/cache/aws-sdk-npm-2.1231.0-2e9ac62358-34597bc47b.zip/node_modules/aws-sdk/",\
           "packageDependencies": [\
-            ["aws-sdk", "npm:2.1230.0"],\
+            ["aws-sdk", "npm:2.1231.0"],\
             ["buffer", "npm:4.9.2"],\
             ["events", "npm:1.1.1"],\
             ["ieee754", "npm:1.1.13"],\
@@ -4188,7 +4188,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dynamodb-1", "workspace:packages/dynamodb-1"],\
             ["@aws-sdk/util-dynamodb", "npm:3.87.0"],\
             ["@goldstack/template-dynamodb", "npm:0.2.6"],\
-            ["@goldstack/template-dynamodb-cli", "npm:0.5.6"],\
+            ["@goldstack/template-dynamodb-cli", "npm:0.5.7"],\
             ["@types/ejs", "npm:3.1.1"],\
             ["@types/jest", "npm:29.0.1"],\
             ["@types/node", "npm:18.7.13"],\
@@ -4214,7 +4214,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["dynamodb-admin", "npm:4.4.0"],\
             ["argparse", "npm:2.0.1"],\
-            ["aws-sdk", "npm:2.1230.0"],\
+            ["aws-sdk", "npm:2.1231.0"],\
             ["body-parser", "npm:1.20.0"],\
             ["cli-color", "npm:2.0.0"],\
             ["cookie-parser", "npm:1.4.5"],\
