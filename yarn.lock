@@ -2122,24 +2122,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-sdk@npm:^2.851.0":
-  version: 2.1233.0
-  resolution: "aws-sdk@npm:2.1233.0"
-  dependencies:
-    buffer: 4.9.2
-    events: 1.1.1
-    ieee754: 1.1.13
-    jmespath: 0.16.0
-    querystring: 0.2.0
-    sax: 1.2.1
-    url: 0.10.3
-    util: ^0.12.4
-    uuid: 8.0.0
-    xml2js: 0.4.19
-  checksum: 48070cd2d241f07a911a795a0a6e6e93c8ec883aafa6ad58ce5771f518feb7dec3baf6bea1b0636004c1b94c70fe808f98705607e59b37d4dbe4da62ebf2cb0e
-  languageName: node
-  linkType: hard
-
 "axios@npm:0.21.2":
   version: 0.21.2
   resolution: "axios@npm:0.21.2"
@@ -4459,7 +4441,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob-parent@npm:^5.1.0, glob-parent@npm:^5.1.2, glob-parent@npm:~5.1.2":
+"glob-parent@npm:5.1.2":
   version: 5.1.2
   resolution: "glob-parent@npm:5.1.2"
   dependencies:
