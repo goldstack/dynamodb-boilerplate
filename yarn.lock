@@ -698,11 +698,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-dynamodb-cli@npm:0.5.11":
-  version: 0.5.11
-  resolution: "@goldstack/template-dynamodb-cli@npm:0.5.11"
+"@goldstack/template-dynamodb-cli@npm:0.5.12":
+  version: 0.5.12
+  resolution: "@goldstack/template-dynamodb-cli@npm:0.5.12"
   dependencies:
-    "@goldstack/template-dynamodb": 0.2.10
+    "@goldstack/template-dynamodb": 0.2.11
     "@goldstack/utils-cli": 0.3.4
     "@goldstack/utils-package": 0.4.4
     "@goldstack/utils-package-config": 0.4.4
@@ -715,13 +715,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-dynamodb: ./bin/template
-  checksum: 9a4149f8d7ff982b847860ca08dc16636d88e50c85e0de560b0ae332f829b5c166157f41595250d3d43f9490005d7f53d7087a6c34dfc3d2f55d97649badbb70
+  checksum: e9c983403d8411cc8cb1f24c58407e2b85ff2c926f906a3ccba4bba89c6ec54213726f34733244237c0e6942c2f79c0b883bc74917f7c426e492d09e91d2d66e
   languageName: node
   linkType: hard
 
-"@goldstack/template-dynamodb@npm:0.2.10":
-  version: 0.2.10
-  resolution: "@goldstack/template-dynamodb@npm:0.2.10"
+"@goldstack/template-dynamodb@npm:0.2.11":
+  version: 0.2.11
+  resolution: "@goldstack/template-dynamodb@npm:0.2.11"
   dependencies:
     "@aws-sdk/util-dynamodb": ^3.87.0
     "@goldstack/infra": 0.4.4
@@ -731,9 +731,9 @@ __metadata:
     "@goldstack/utils-package-config-embedded": 0.5.5
     "@goldstack/utils-terraform": 0.4.7
     aws-sdk: ^2.1222.0
-    testcontainers: ^8.12.0
+    testcontainers: ^9.1.1
     umzug: ^3.1.1
-  checksum: 4750fc7065086eca3ef6f194d8f8f25b59f4b79f7f06d7dd1be2fbd6c6d1ac203b0687e78afdcef78591937c014730bc9c807e56936701449b53a9ec70f75dd9
+  checksum: 57b0f2a32bb9ded328fa211f8b3e8052ebca00513b1cf243d4e0c285bc9cd2f6bc1957b722f5fe4e586972ccedd455d4a232a1bb49e6c378b97720afbfe703c3
   languageName: node
   linkType: hard
 
@@ -1470,13 +1470,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/dockerode@npm:^3.3.8":
-  version: 3.3.9
-  resolution: "@types/dockerode@npm:3.3.9"
+"@types/dockerode@npm:^3.3.12":
+  version: 3.3.14
+  resolution: "@types/dockerode@npm:3.3.14"
   dependencies:
     "@types/docker-modem": "*"
     "@types/node": "*"
-  checksum: 3d03c68addb37c50e9557fff17171d26423aa18e544cb24e4caa81ebcec39ccc1cafed7adbfb8f4220d8ed23028d231717826bb77a786d425885c4f4cc37536d
+  checksum: 6a8472622861fb0c97908963a8236d6e439c9feefc845b866326272ad0e5c33f537206fb4633424c5e3c8ec63559cb14bc737e2f88f0fcdf11496a9162d5b139
   languageName: node
   linkType: hard
 
@@ -1555,6 +1555,13 @@ __metadata:
   version: 7.0.9
   resolution: "@types/json-schema@npm:7.0.9"
   checksum: 259d0e25f11a21ba5c708f7ea47196bd396e379fddb79c76f9f4f62c945879dc21657904914313ec2754e443c5018ea8372362f323f30e0792897fdb2098a705
+  languageName: node
+  linkType: hard
+
+"@types/memoizee@npm:^0":
+  version: 0.4.8
+  resolution: "@types/memoizee@npm:0.4.8"
+  checksum: fec135ca84426fc22aa69061c62c7139647c87a84b04d9b7abeb6a85dff334ebe901280c315728c096c931a723427b9a8abc52c54546745665b5107146b6b3ba
   languageName: node
   linkType: hard
 
@@ -3043,13 +3050,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dockerode@npm:^3.3.1":
-  version: 3.3.1
-  resolution: "dockerode@npm:3.3.1"
+"dockerode@npm:^3.3.4":
+  version: 3.3.4
+  resolution: "dockerode@npm:3.3.4"
   dependencies:
+    "@balena/dockerignore": ^1.0.2
     docker-modem: ^3.0.0
     tar-fs: ~2.0.1
-  checksum: 930162ae2d8a1fe0e99d9a5885b09aa438da6274d4a30cb90e73046655dbc90764eb755361a63ba08f167e257c4d649d67bce71f650461a20b97fcde0af05ca5
+  checksum: 6cb4b9d1c42feb3acfa77daf103b070cc412351dc7dc0a1553cc774ccd1be1a1412a87f8aa13c3155c63ec5c61a7cadc833b4248c4d8342814bbf708f795b952
   languageName: node
   linkType: hard
 
@@ -3157,17 +3165,18 @@ __metadata:
   resolution: "dynamodb-1@workspace:packages/dynamodb-1"
   dependencies:
     "@aws-sdk/util-dynamodb": ^3.87.0
-    "@goldstack/template-dynamodb": 0.2.10
-    "@goldstack/template-dynamodb-cli": 0.5.11
+    "@goldstack/template-dynamodb": 0.2.11
+    "@goldstack/template-dynamodb-cli": 0.5.12
     "@types/ejs": ^3
     "@types/jest": ^29.0.1
+    "@types/memoizee": ^0
     "@types/node": ^18.7.13
     aws-sdk: ^2.1222.0
-    deep-copy: ^1.4.2
     dynamodb-admin: ^4.4.0
-    dynamodb-toolbox: ^0.4.3
+    dynamodb-toolbox: ^0.6.3
     ejs: ^3.1.8
     jest: ^28.1.0
+    memoizee: ^0.4.15
     rimraf: ^3.0.2
     source-map-support: ^0.5.21
     ts-jest: ^28.0.2
@@ -3197,12 +3206,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dynamodb-toolbox@npm:^0.4.3":
-  version: 0.4.3
-  resolution: "dynamodb-toolbox@npm:0.4.3"
+"dynamodb-toolbox@npm:^0.6.3":
+  version: 0.6.3
+  resolution: "dynamodb-toolbox@npm:0.6.3"
   dependencies:
-    ts-toolbelt: ^6.15.5
-  checksum: 6127ae26fe0bcba91108a83c6d0b6221a2d12a277754db3d6bf703656bda2f7e6f43aa1e01db8fcdb6640ca3044397185f7ea98859e98c8a33333721eb49c229
+    deep-copy: ^1.4.2
+    ts-toolbelt: ^9.6.0
+  checksum: 1ef44fee177519a6128583c2435451f9110fe2104c3a79696197b5e1beb8fac4130802b8ccc53e942af5271dd7195dc2caa1e146d0d3dd2407aa0769fa66038a
   languageName: node
   linkType: hard
 
@@ -3448,6 +3458,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"es5-ext@npm:^0.10.53":
+  version: 0.10.62
+  resolution: "es5-ext@npm:0.10.62"
+  dependencies:
+    es6-iterator: ^2.0.3
+    es6-symbol: ^3.1.3
+    next-tick: ^1.1.0
+  checksum: 25f42f6068cfc6e393cf670bc5bba249132c5f5ec2dd0ed6e200e6274aca2fed8e9aec8a31c76031744c78ca283c57f0b41c7e737804c6328c7b8d3fbcba7983
+  languageName: node
+  linkType: hard
+
 "es6-iterator@npm:^2.0.3, es6-iterator@npm:~2.0.3":
   version: 2.0.3
   resolution: "es6-iterator@npm:2.0.3"
@@ -3459,7 +3480,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es6-symbol@npm:^3.1.1, es6-symbol@npm:~3.1.3":
+"es6-symbol@npm:^3.1.1, es6-symbol@npm:^3.1.3, es6-symbol@npm:~3.1.3":
   version: 3.1.3
   resolution: "es6-symbol@npm:3.1.3"
   dependencies:
@@ -3469,7 +3490,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es6-weak-map@npm:^2.0.2":
+"es6-weak-map@npm:^2.0.2, es6-weak-map@npm:^2.0.3":
   version: 2.0.3
   resolution: "es6-weak-map@npm:2.0.3"
   dependencies:
@@ -4966,7 +4987,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-promise@npm:^2.1":
+"is-promise@npm:^2.1, is-promise@npm:^2.2.2":
   version: 2.2.2
   resolution: "is-promise@npm:2.2.2"
   checksum: 18bf7d1c59953e0ad82a1ed963fb3dc0d135c8f299a14f89a17af312fc918373136e56028e8831700e1933519630cc2fd4179a777030330fde20d34e96f40c78
@@ -5995,7 +6016,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lru-queue@npm:0.1":
+"lru-queue@npm:0.1, lru-queue@npm:^0.1.0":
   version: 0.1.0
   resolution: "lru-queue@npm:0.1.0"
   dependencies:
@@ -6073,6 +6094,22 @@ __metadata:
     next-tick: 1
     timers-ext: ^0.1.5
   checksum: ec40c829c27054a52aedbb674fa055b1168950ad1aa8445122ceec901ed1285e6e089ad2adde4d6584c9c23948c372e33a30c148af2e867b29280477da69e1e0
+  languageName: node
+  linkType: hard
+
+"memoizee@npm:^0.4.15":
+  version: 0.4.15
+  resolution: "memoizee@npm:0.4.15"
+  dependencies:
+    d: ^1.0.1
+    es5-ext: ^0.10.53
+    es6-weak-map: ^2.0.3
+    event-emitter: ^0.3.5
+    is-promise: ^2.2.2
+    lru-queue: ^0.1.0
+    next-tick: ^1.1.0
+    timers-ext: ^0.1.7
+  checksum: 4065d94416dbadac56edf5947bf342beca0e9f051f33ad60d7c4baf3f6ca0f3c6fdb770c5caed5a89c0ceaf9121428582f396445d591785281383d60aa883418
   languageName: node
   linkType: hard
 
@@ -6357,7 +6394,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-tick@npm:1":
+"next-tick@npm:1, next-tick@npm:^1.1.0":
   version: 1.1.0
   resolution: "next-tick@npm:1.1.0"
   checksum: 83b5cf36027a53ee6d8b7f9c0782f2ba87f4858d977342bfc3c20c21629290a2111f8374d13a81221179603ffc4364f38374b5655d17b6a8f8a8c77bdea4fe8b
@@ -6368,6 +6405,20 @@ __metadata:
   version: 1.0.0
   resolution: "next-tick@npm:1.0.0"
   checksum: 83fcb3d4f8d9380210b1c2b8a610463602d80283f0c0c8571c1688e1ad6cbf3a16b345f5bb7212617d4898bedcfa10dff327dc09ec20a112a5bf43a0271375fb
+  languageName: node
+  linkType: hard
+
+"node-fetch@npm:^2.6.7":
+  version: 2.6.7
+  resolution: "node-fetch@npm:2.6.7"
+  dependencies:
+    whatwg-url: ^5.0.0
+  peerDependencies:
+    encoding: ^0.1.0
+  peerDependenciesMeta:
+    encoding:
+      optional: true
+  checksum: 8d816ffd1ee22cab8301c7756ef04f3437f18dace86a1dae22cf81db8ef29c0bf6655f3215cb0cdb22b420b6fe141e64b26905e7f33f9377a7fa59135ea3e10b
   languageName: node
   linkType: hard
 
@@ -7937,23 +7988,24 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"testcontainers@npm:^8.12.0":
-  version: 8.12.0
-  resolution: "testcontainers@npm:8.12.0"
+"testcontainers@npm:^9.1.1":
+  version: 9.1.1
+  resolution: "testcontainers@npm:9.1.1"
   dependencies:
     "@balena/dockerignore": ^1.0.2
     "@types/archiver": ^5.3.1
-    "@types/dockerode": ^3.3.8
+    "@types/dockerode": ^3.3.12
     archiver: ^5.3.1
     byline: ^5.0.0
     debug: ^4.3.4
     docker-compose: ^0.23.17
-    dockerode: ^3.3.1
+    dockerode: ^3.3.4
     get-port: ^5.1.1
+    node-fetch: ^2.6.7
     properties-reader: ^2.2.0
     ssh-remote-port-forward: ^1.0.4
     tar-fs: ^2.1.1
-  checksum: b134bf1e4f4aa2d8e8e4143920ec08d90917d4749d6b329df028ac15969036d109c73b6efe6f461554b92ba7bae1b96b2b6a7cefb1e1323373de3934fd992107
+  checksum: 1af59b5e63635c8ab7e48a909e9fcaa76b0ac31198c8a474322c0b06563acc098abcae036339511b368bd654e273604a7be594162e5e9ce19d19463ea1d6ebe3
   languageName: node
   linkType: hard
 
@@ -8019,6 +8071,13 @@ resolve@^1.20.0:
   bin:
     nodetouch: ./bin/nodetouch.js
   checksum: e0be589cb5b0e6dbfce6e7e077d4a0d5f0aba558ef769c6d9c33f635e00d73d5be49da6f8631db302ee073919d82b5b7f56da2987feb28765c95a7673af68647
+  languageName: node
+  linkType: hard
+
+"tr46@npm:~0.0.3":
+  version: 0.0.3
+  resolution: "tr46@npm:0.0.3"
+  checksum: 726321c5eaf41b5002e17ffbd1fb7245999a073e8979085dacd47c4b4e8068ff5777142fc6726d6ca1fd2ff16921b48788b87225cbc57c72636f6efa8efbffe3
   languageName: node
   linkType: hard
 
@@ -8093,10 +8152,10 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"ts-toolbelt@npm:^6.15.5":
-  version: 6.15.5
-  resolution: "ts-toolbelt@npm:6.15.5"
-  checksum: 24ad00cfd9ce735c76c873a9b1347eac475b94e39ebbdf100c9019dce88dd5f4babed52884cf82bb456a38c28edd0099ab6f704b84b2e5e034852b618472c1f3
+"ts-toolbelt@npm:^9.6.0":
+  version: 9.6.0
+  resolution: "ts-toolbelt@npm:9.6.0"
+  checksum: 9f35fd95d895a5d32ea9fd2e532a695b0bae6cbff6832b77292efa188a0ed1ed6e54f63f74a8920390f3d909a7a3adb20a144686372a8e78b420246a9bd3d58a
   languageName: node
   linkType: hard
 
@@ -8381,6 +8440,23 @@ resolve@^1.20.0:
   dependencies:
     makeerror: 1.0.x
   checksum: 4038fcf92f6ab0288267ad05008aec9e089a759f1bd32e1ea45cc2eb498eb12095ec43cf8ca2bf23a465f4580a0d33b25b89f450ba521dd27083cbc695ee6bf5
+  languageName: node
+  linkType: hard
+
+"webidl-conversions@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "webidl-conversions@npm:3.0.1"
+  checksum: c92a0a6ab95314bde9c32e1d0a6dfac83b578f8fa5f21e675bc2706ed6981bc26b7eb7e6a1fab158e5ce4adf9caa4a0aee49a52505d4d13c7be545f15021b17c
+  languageName: node
+  linkType: hard
+
+"whatwg-url@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "whatwg-url@npm:5.0.0"
+  dependencies:
+    tr46: ~0.0.3
+    webidl-conversions: ^3.0.0
+  checksum: b8daed4ad3356cc4899048a15b2c143a9aed0dfae1f611ebd55073310c7b910f522ad75d727346ad64203d7e6c79ef25eafd465f4d12775ca44b90fa82ed9e2c
   languageName: node
   linkType: hard
 
