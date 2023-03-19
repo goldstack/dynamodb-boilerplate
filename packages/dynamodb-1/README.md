@@ -10,6 +10,7 @@ The [DynamoDB template](https://goldstack.party/templates/dynamodb) provides a l
 - Run migrations using Umzug
 - Easy to use API
 - Strong typing using DynamoDB Toolbox
+- Easy local testing (recommended to install Java)
 - Supports multiple environments (development, production)
 - Provides way to extend infrastructure using Terraform
 
@@ -24,6 +25,19 @@ The template will create a basic table with this name with a partition and sort 
 ### 1. Project Setup
 
 Before using this template, you need to configure the project. For this, please see the [Getting Started Guide](https://docs.goldstack.party/docs/goldstack/getting-started) on the Goldstack documentation.
+
+For local testing, this module uses [DynamoDBLocal](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html).
+
+Since DynamoDBLocal is run using Java, we recommend to [install Java](https://www.java.com/download/ie_manual.jsp) to perform local testing.
+
+You can confirm that Java is configured correctly by running:
+
+    $ java -version
+    java version "11.0.3" 2019-04-16 LTS
+    Java(TM) SE Runtime Environment 18.9 (build 11.0.3+12-LTS)
+    Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.3+12-LTS, mixed mode)
+
+Local testing also supports a fallback using Docker when Java is not installed, but this is currently [not recommended](https://github.com/goldstack/goldstack/pull/309) to be used.
 
 ### 2. Setup Infrastructure
 

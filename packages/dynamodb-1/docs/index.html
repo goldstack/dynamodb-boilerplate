@@ -51,6 +51,7 @@
     <li>Run migrations using Umzug</li>
     <li>Easy to use API</li>
     <li>Strong typing using DynamoDB Toolbox</li>
+    <li>Easy local testing (recommended to install Java)</li>
     <li>Supports multiple environments (development, production)</li>
     <li>Provides way to extend infrastructure using Terraform</li>
   </ul>
@@ -202,6 +203,45 @@
     </p>
   </div>
   <p></p>
+  <p>
+    For local testing, this module uses
+    <a
+      href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html"
+      class="absolute"
+      target="_blank"
+      rel="noopener noreferrer"
+      >DynamoDBLocal</a
+    >.
+  </p>
+  <p>
+    Since DynamoDBLocal is run using Java, we recommend to
+    <a
+      href="https://www.java.com/download/ie_manual.jsp"
+      class="absolute"
+      target="_blank"
+      rel="noopener noreferrer"
+      >install Java</a
+    >
+    to perform local testing.
+  </p>
+  <p>You can confirm that Java is configured correctly by running:</p>
+  <pre><code>$ java -version
+java version "11.0.3" 2019-04-16 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.3+12-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.3+12-LTS, mixed mode)
+</code></pre>
+  <p>
+    Local testing also supports a fallback using Docker when Java is not
+    installed, but this is currently
+    <a
+      href="https://github.com/goldstack/goldstack/pull/309"
+      class="absolute"
+      target="_blank"
+      rel="noopener noreferrer"
+      >not recommended</a
+    >
+    to be used.
+  </p>
   <p></p>
   <div class="markdown-fragment">
     <h3 class="heading">
