@@ -1825,17 +1825,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-dynamodb-cli", [\
-      ["npm:0.5.27", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.5.27-4704e2c54a-9354d72649.zip/node_modules/@goldstack/template-dynamodb-cli/",\
+      ["npm:0.5.28", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.5.28-87f2f48618-68e909bbc8.zip/node_modules/@goldstack/template-dynamodb-cli/",\
         "packageDependencies": [\
-          ["@goldstack/template-dynamodb-cli", "npm:0.5.27"],\
+          ["@goldstack/template-dynamodb-cli", "npm:0.5.28"],\
           ["@goldstack/template-dynamodb", "npm:0.2.26"],\
           ["@goldstack/utils-cli", "npm:0.3.9"],\
           ["@goldstack/utils-package", "npm:0.4.9"],\
           ["@goldstack/utils-package-config", "npm:0.4.9"],\
           ["@goldstack/utils-sh", "npm:0.5.9"],\
           ["@goldstack/utils-terraform", "npm:0.4.15"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.15"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.16"],\
           ["source-map-support", "npm:0.5.21"],\
           ["umzug", "npm:3.1.1"],\
           ["yargs", "npm:17.5.1"]\
@@ -1967,10 +1967,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform-aws", [\
-      ["npm:0.4.15", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.15-092d449e63-64fc1a9ae4.zip/node_modules/@goldstack/utils-terraform-aws/",\
+      ["npm:0.4.16", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.16-cd926db60d-be0fae2df9.zip/node_modules/@goldstack/utils-terraform-aws/",\
         "packageDependencies": [\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.15"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.16"],\
           ["@aws-sdk/types", "npm:3.468.0"],\
           ["@goldstack/infra-aws", "npm:0.4.14"],\
           ["@goldstack/utils-config", "npm:0.4.9"],\
@@ -5332,7 +5332,7 @@ const RAW_RUNTIME_STATE =
           ["dynamodb-1", "workspace:packages/dynamodb-1"],\
           ["@aws-sdk/util-dynamodb", "npm:3.87.0"],\
           ["@goldstack/template-dynamodb", "npm:0.2.26"],\
-          ["@goldstack/template-dynamodb-cli", "npm:0.5.27"],\
+          ["@goldstack/template-dynamodb-cli", "npm:0.5.28"],\
           ["@swc/core", "virtual:4e1f3d48c363dfd415bd7dac6f5ddbf266cd959a847b61e42b10fe044b30237bcc02fb4e1ac91914d5995210473f28564a9ca330926dfe6cbd7e1a0a262fc3fa#npm:1.3.74"],\
           ["@swc/jest", "virtual:4e1f3d48c363dfd415bd7dac6f5ddbf266cd959a847b61e42b10fe044b30237bcc02fb4e1ac91914d5995210473f28564a9ca330926dfe6cbd7e1a0a262fc3fa#npm:0.2.27"],\
           ["@types/ejs", "npm:3.1.1"],\
