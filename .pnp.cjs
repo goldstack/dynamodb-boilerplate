@@ -4931,6 +4931,23 @@ const RAW_RUNTIME_STATE =
           ["xml2js", "npm:0.5.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:2.1550.0", {\
+        "packageLocation": "./.yarn/cache/aws-sdk-npm-2.1550.0-d75b4f2096-950e452b51.zip/node_modules/aws-sdk/",\
+        "packageDependencies": [\
+          ["aws-sdk", "npm:2.1550.0"],\
+          ["buffer", "npm:4.9.2"],\
+          ["events", "npm:1.1.1"],\
+          ["ieee754", "npm:1.1.13"],\
+          ["jmespath", "npm:0.16.0"],\
+          ["querystring", "npm:0.2.0"],\
+          ["sax", "npm:1.2.1"],\
+          ["url", "npm:0.10.3"],\
+          ["util", "npm:0.12.4"],\
+          ["uuid", "npm:8.0.0"],\
+          ["xml2js", "npm:0.6.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["axios", [\
@@ -6197,7 +6214,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["dynamodb-admin", "npm:4.6.1"],\
           ["argparse", "npm:2.0.1"],\
-          ["aws-sdk", "npm:2.1525.0"],\
+          ["aws-sdk", "npm:2.1550.0"],\
           ["body-parser", "npm:1.20.2"],\
           ["cli-color", "npm:2.0.3"],\
           ["cookie-parser", "npm:1.4.6"],\
@@ -12036,6 +12053,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/xml2js-npm-0.5.0-06e57a2771-27c4d75921.zip/node_modules/xml2js/",\
         "packageDependencies": [\
           ["xml2js", "npm:0.5.0"],\
+          ["sax", "npm:1.2.1"],\
+          ["xmlbuilder", "npm:11.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:0.6.2", {\
+        "packageLocation": "./.yarn/cache/xml2js-npm-0.6.2-64cd781d74-df29de8eee.zip/node_modules/xml2js/",\
+        "packageDependencies": [\
+          ["xml2js", "npm:0.6.2"],\
           ["sax", "npm:1.2.1"],\
           ["xmlbuilder", "npm:11.0.1"]\
         ],\
