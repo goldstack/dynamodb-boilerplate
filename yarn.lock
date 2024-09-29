@@ -1972,30 +1972,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-dynamodb-cli@npm:0.6.10":
-  version: 0.6.10
-  resolution: "@goldstack/template-dynamodb-cli@npm:0.6.10"
+"@goldstack/template-dynamodb-cli@npm:0.6.11":
+  version: 0.6.11
+  resolution: "@goldstack/template-dynamodb-cli@npm:0.6.11"
   dependencies:
-    "@goldstack/template-dynamodb": "npm:0.3.9"
+    "@goldstack/template-dynamodb": "npm:0.3.10"
     "@goldstack/utils-cli": "npm:0.3.10"
     "@goldstack/utils-package": "npm:0.4.12"
     "@goldstack/utils-package-config": "npm:0.4.12"
     "@goldstack/utils-sh": "npm:0.5.11"
-    "@goldstack/utils-terraform": "npm:0.4.22"
-    "@goldstack/utils-terraform-aws": "npm:0.4.25"
+    "@goldstack/utils-terraform": "npm:0.4.23"
+    "@goldstack/utils-terraform-aws": "npm:0.4.26"
     source-map-support: "npm:^0.5.21"
     umzug: "npm:^3.1.1"
     yargs: "npm:^17.5.1"
   bin:
     template: ./bin/template
     template-dynamodb: ./bin/template
-  checksum: 32df9d5b0304fa4c66b740c7a3ec67473b0a09483e39d266c57a4590d20f7b14174b0e7428dad21a8e7e62105470bfbaf270bcd26bb9754c3f248ce718520c10
+  checksum: 74ba3a6c7b915bc5ebfb0bde9d439016dfce1a6da2abc7656e8608e8359b0ece6a96b72035e6011b63a75f5200dfd21fcf18ea668ec1f2c847a288c1be0396b0
   languageName: node
   linkType: hard
 
-"@goldstack/template-dynamodb@npm:0.3.9":
-  version: 0.3.9
-  resolution: "@goldstack/template-dynamodb@npm:0.3.9"
+"@goldstack/template-dynamodb@npm:0.3.10":
+  version: 0.3.10
+  resolution: "@goldstack/template-dynamodb@npm:0.3.10"
   dependencies:
     "@aws-sdk/client-dynamodb": "npm:^3.645.0"
     "@aws-sdk/credential-providers": "npm:^3.645.0"
@@ -2007,12 +2007,12 @@ __metadata:
     "@goldstack/utils-package": "npm:0.4.12"
     "@goldstack/utils-package-config-embedded": "npm:0.5.13"
     "@goldstack/utils-sh": "npm:0.5.11"
-    "@goldstack/utils-terraform": "npm:0.4.22"
+    "@goldstack/utils-terraform": "npm:0.4.23"
     dynamo-db-local: "npm:^7.3.0"
     tcp-port-used: "npm:^1.0.2"
     umzug: "npm:^3.1.1"
     wait-port: "npm:^1.1.0"
-  checksum: 1db4a2737de73a24344e51ac52ed75a107b96dbe997e293897f330ffbf5cf5259ee691b79dcc74cdef0c21c838378f66106bccf890f82413c025f4eac23ef1a2
+  checksum: 0aedbc51267c80399115ca93efaf71af3918f0968ba769f26b84662b89e5b04a30a1ebdd8390c8047cab9fbeb8921cce4d3c52d47245b5fbb0bd3177f12550f7
   languageName: node
   linkType: hard
 
@@ -2113,9 +2113,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform-aws@npm:0.4.25":
-  version: 0.4.25
-  resolution: "@goldstack/utils-terraform-aws@npm:0.4.25"
+"@goldstack/utils-terraform-aws@npm:0.4.26":
+  version: 0.4.26
+  resolution: "@goldstack/utils-terraform-aws@npm:0.4.26"
   dependencies:
     "@aws-sdk/client-dynamodb": "npm:^3.645.0"
     "@aws-sdk/client-s3": "npm:3.620.0"
@@ -2126,14 +2126,14 @@ __metadata:
     "@goldstack/utils-log": "npm:0.3.11"
     "@goldstack/utils-package": "npm:0.4.12"
     "@goldstack/utils-sh": "npm:0.5.11"
-    "@goldstack/utils-terraform": "npm:0.4.22"
-  checksum: 97aa52b5f0f286cae8a23912dba5d5f527fd294c6c69288c772823deb31433d77f52d10b2ce30ac66a2b7ab6999a76db442423953736701e5de75f4617b0b862
+    "@goldstack/utils-terraform": "npm:0.4.23"
+  checksum: 7a6bf9a72a1e824fce81ed852d99e94951c12d0cfc96f21c0530edeb5dc4ff1968c7c77f2cecf205f825f920518a0747c4a834c8158d4d577f3d2cdf5c40e281
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform@npm:0.4.22":
-  version: 0.4.22
-  resolution: "@goldstack/utils-terraform@npm:0.4.22"
+"@goldstack/utils-terraform@npm:0.4.23":
+  version: 0.4.23
+  resolution: "@goldstack/utils-terraform@npm:0.4.23"
   dependencies:
     "@goldstack/infra": "npm:0.4.12"
     "@goldstack/infra-aws": "npm:0.4.20"
@@ -2144,7 +2144,7 @@ __metadata:
     "@goldstack/utils-sh": "npm:0.5.11"
     json-stable-stringify: "npm:^1.0.1"
     yargs: "npm:^17.5.1"
-  checksum: d18b9ee28e081c3508978d5a2ec741d4a165558e5141e181c49e54ede9e4873e529e3c74d863602ba2f623ce5149fd33118902854c751a86348fd836a3899481
+  checksum: bfede9a39a7c979fa20d9a83575e187f426b507525ae8c64ceb4c1355d5375727b38b490668553f98f1b8fbb9674e2549ea42f12ce97ec674397d923a2c8cffd
   languageName: node
   linkType: hard
 
@@ -5206,8 +5206,8 @@ __metadata:
   dependencies:
     "@aws-sdk/client-dynamodb": "npm:^3.645.0"
     "@aws-sdk/lib-dynamodb": "npm:^3.645.0"
-    "@goldstack/template-dynamodb": "npm:0.3.9"
-    "@goldstack/template-dynamodb-cli": "npm:0.6.10"
+    "@goldstack/template-dynamodb": "npm:0.3.10"
+    "@goldstack/template-dynamodb-cli": "npm:0.6.11"
     "@swc/core": "npm:^1.3.74"
     "@swc/jest": "npm:^0.2.27"
     "@types/ejs": "npm:^3"
