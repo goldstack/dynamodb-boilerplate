@@ -1034,7 +1034,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@aws-sdk/lib-dynamodb", "virtual:4e1f3d48c363dfd415bd7dac6f5ddbf266cd959a847b61e42b10fe044b30237bcc02fb4e1ac91914d5995210473f28564a9ca330926dfe6cbd7e1a0a262fc3fa#npm:3.645.0"],\
           ["@aws-sdk/client-dynamodb", "npm:3.645.0"],\
-          ["@aws-sdk/util-dynamodb", "virtual:8bd20d0de2fcd8855236b25d0f838bb9404bbcda304fb7831181d727d35981d6671127fb33de958cbb65448dc4e1797a7ad8c547e95db6d31a1e122df539453a#npm:3.645.0"],\
+          ["@aws-sdk/util-dynamodb", "virtual:ae82f88258de93a3bb6ce816d46af492077c53e6f5b81040135b23f234494ef3d3bb6842d499d8e7c3bb42e47be5aa1a54e705a3cb7423597a5de0740e602908#npm:3.645.0"],\
           ["@smithy/core", "npm:2.4.0"],\
           ["@smithy/smithy-client", "npm:3.2.0"],\
           ["@smithy/types", "npm:3.3.0"],\
@@ -1349,10 +1349,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:8bd20d0de2fcd8855236b25d0f838bb9404bbcda304fb7831181d727d35981d6671127fb33de958cbb65448dc4e1797a7ad8c547e95db6d31a1e122df539453a#npm:3.645.0", {\
-        "packageLocation": "./.yarn/__virtual__/@aws-sdk-util-dynamodb-virtual-6a7bf3b750/0/cache/@aws-sdk-util-dynamodb-npm-3.645.0-e9929f71d8-a02c96c347.zip/node_modules/@aws-sdk/util-dynamodb/",\
+      ["virtual:ae82f88258de93a3bb6ce816d46af492077c53e6f5b81040135b23f234494ef3d3bb6842d499d8e7c3bb42e47be5aa1a54e705a3cb7423597a5de0740e602908#npm:3.645.0", {\
+        "packageLocation": "./.yarn/__virtual__/@aws-sdk-util-dynamodb-virtual-f51bb6b971/0/cache/@aws-sdk-util-dynamodb-npm-3.645.0-e9929f71d8-a02c96c347.zip/node_modules/@aws-sdk/util-dynamodb/",\
         "packageDependencies": [\
-          ["@aws-sdk/util-dynamodb", "virtual:8bd20d0de2fcd8855236b25d0f838bb9404bbcda304fb7831181d727d35981d6671127fb33de958cbb65448dc4e1797a7ad8c547e95db6d31a1e122df539453a#npm:3.645.0"],\
+          ["@aws-sdk/util-dynamodb", "virtual:ae82f88258de93a3bb6ce816d46af492077c53e6f5b81040135b23f234494ef3d3bb6842d499d8e7c3bb42e47be5aa1a54e705a3cb7423597a5de0740e602908#npm:3.645.0"],\
           ["@aws-sdk/client-dynamodb", "npm:3.645.0"],\
           ["@types/aws-sdk__client-dynamodb", null],\
           ["tslib", "npm:2.7.0"]\
@@ -2586,21 +2586,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-dynamodb", [\
-      ["npm:0.3.12", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-npm-0.3.12-8bd20d0de2-d32497d43a.zip/node_modules/@goldstack/template-dynamodb/",\
+      ["npm:0.3.13", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-npm-0.3.13-ae82f88258-2f56f5d679.zip/node_modules/@goldstack/template-dynamodb/",\
         "packageDependencies": [\
-          ["@goldstack/template-dynamodb", "npm:0.3.12"],\
+          ["@goldstack/template-dynamodb", "npm:0.3.13"],\
           ["@aws-sdk/client-dynamodb", "npm:3.645.0"],\
           ["@aws-sdk/credential-providers", "npm:3.645.0"],\
           ["@aws-sdk/types", "npm:3.609.0"],\
-          ["@aws-sdk/util-dynamodb", "virtual:8bd20d0de2fcd8855236b25d0f838bb9404bbcda304fb7831181d727d35981d6671127fb33de958cbb65448dc4e1797a7ad8c547e95db6d31a1e122df539453a#npm:3.645.0"],\
+          ["@aws-sdk/util-dynamodb", "virtual:ae82f88258de93a3bb6ce816d46af492077c53e6f5b81040135b23f234494ef3d3bb6842d499d8e7c3bb42e47be5aa1a54e705a3cb7423597a5de0740e602908#npm:3.645.0"],\
           ["@goldstack/infra", "npm:0.4.12"],\
           ["@goldstack/infra-aws", "npm:0.4.20"],\
           ["@goldstack/utils-esbuild", "npm:0.5.9"],\
           ["@goldstack/utils-package", "npm:0.4.12"],\
           ["@goldstack/utils-package-config-embedded", "npm:0.5.13"],\
           ["@goldstack/utils-sh", "npm:0.5.11"],\
-          ["@goldstack/utils-terraform", "npm:0.4.23"],\
+          ["@goldstack/utils-terraform", "npm:0.4.24"],\
           ["dynamo-db-local", "npm:8.0.0"],\
           ["tcp-port-used", "npm:1.0.2"],\
           ["umzug", "npm:3.1.1"],\
@@ -2610,17 +2610,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-dynamodb-cli", [\
-      ["npm:0.6.13", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.6.13-e6511e71b5-9351a33a37.zip/node_modules/@goldstack/template-dynamodb-cli/",\
+      ["npm:0.6.14", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.6.14-7f2f83b4d9-042235b362.zip/node_modules/@goldstack/template-dynamodb-cli/",\
         "packageDependencies": [\
-          ["@goldstack/template-dynamodb-cli", "npm:0.6.13"],\
-          ["@goldstack/template-dynamodb", "npm:0.3.12"],\
+          ["@goldstack/template-dynamodb-cli", "npm:0.6.14"],\
+          ["@goldstack/template-dynamodb", "npm:0.3.13"],\
           ["@goldstack/utils-cli", "npm:0.3.10"],\
           ["@goldstack/utils-package", "npm:0.4.12"],\
           ["@goldstack/utils-package-config", "npm:0.4.12"],\
           ["@goldstack/utils-sh", "npm:0.5.11"],\
-          ["@goldstack/utils-terraform", "npm:0.4.23"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.26"],\
+          ["@goldstack/utils-terraform", "npm:0.4.24"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.27"],\
           ["source-map-support", "npm:0.5.21"],\
           ["umzug", "npm:3.1.1"],\
           ["yargs", "npm:17.5.1"]\
@@ -2736,10 +2736,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform", [\
-      ["npm:0.4.23", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.23-e16014b4c8-bfede9a39a.zip/node_modules/@goldstack/utils-terraform/",\
+      ["npm:0.4.24", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.24-dbc94eb484-b76c447f16.zip/node_modules/@goldstack/utils-terraform/",\
         "packageDependencies": [\
-          ["@goldstack/utils-terraform", "npm:0.4.23"],\
+          ["@goldstack/utils-terraform", "npm:0.4.24"],\
           ["@goldstack/infra", "npm:0.4.12"],\
           ["@goldstack/infra-aws", "npm:0.4.20"],\
           ["@goldstack/utils-config", "npm:0.4.12"],\
@@ -2754,10 +2754,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform-aws", [\
-      ["npm:0.4.26", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.26-2b2e338677-7a6bf9a72a.zip/node_modules/@goldstack/utils-terraform-aws/",\
+      ["npm:0.4.27", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.27-e8fc0081e4-df43d9bbdc.zip/node_modules/@goldstack/utils-terraform-aws/",\
         "packageDependencies": [\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.26"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.27"],\
           ["@aws-sdk/client-dynamodb", "npm:3.645.0"],\
           ["@aws-sdk/client-s3", "npm:3.620.0"],\
           ["@aws-sdk/types", "npm:3.609.0"],\
@@ -2767,7 +2767,7 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-log", "npm:0.3.11"],\
           ["@goldstack/utils-package", "npm:0.4.12"],\
           ["@goldstack/utils-sh", "npm:0.5.11"],\
-          ["@goldstack/utils-terraform", "npm:0.4.23"]\
+          ["@goldstack/utils-terraform", "npm:0.4.24"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6326,8 +6326,8 @@ const RAW_RUNTIME_STATE =
           ["dynamodb-1", "workspace:packages/dynamodb-1"],\
           ["@aws-sdk/client-dynamodb", "npm:3.645.0"],\
           ["@aws-sdk/lib-dynamodb", "virtual:4e1f3d48c363dfd415bd7dac6f5ddbf266cd959a847b61e42b10fe044b30237bcc02fb4e1ac91914d5995210473f28564a9ca330926dfe6cbd7e1a0a262fc3fa#npm:3.645.0"],\
-          ["@goldstack/template-dynamodb", "npm:0.3.12"],\
-          ["@goldstack/template-dynamodb-cli", "npm:0.6.13"],\
+          ["@goldstack/template-dynamodb", "npm:0.3.13"],\
+          ["@goldstack/template-dynamodb-cli", "npm:0.6.14"],\
           ["@swc/core", "virtual:4e1f3d48c363dfd415bd7dac6f5ddbf266cd959a847b61e42b10fe044b30237bcc02fb4e1ac91914d5995210473f28564a9ca330926dfe6cbd7e1a0a262fc3fa#npm:1.3.74"],\
           ["@swc/jest", "virtual:4e1f3d48c363dfd415bd7dac6f5ddbf266cd959a847b61e42b10fe044b30237bcc02fb4e1ac91914d5995210473f28564a9ca330926dfe6cbd7e1a0a262fc3fa#npm:0.2.27"],\
           ["@types/ejs", "npm:3.1.1"],\
