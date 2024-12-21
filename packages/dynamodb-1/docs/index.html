@@ -761,6 +761,136 @@ Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.3+12-LTS, mixed mode)
   service<span class="token punctuation">:</span> <span class="token keyword">await</span> <span class="token function">connect</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
+    <h4 class="heading">
+      <span id="testing-2"></span
+      ><a href="#testing-2"
+        ><span id="testing-1"></span
+        ><a href="#testing-1" class="relative"><span id="testing"></span></a
+        ><a href="#testing" class="relative">Testing</a
+        ><span class="permalink"
+          ><svg viewBox="0 0 16 16" width="16" height="16">
+            <g stroke-width="1" fill="#000000" stroke="#000000">
+              <path
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-miterlimit="10"
+                d="M8.995,7.005 L8.995,7.005c1.374,1.374,1.374,3.601,0,4.975l-1.99,1.99c-1.374,1.374-3.601,1.374-4.975,0l0,0c-1.374-1.374-1.374-3.601,0-4.975 l1.748-1.698"
+              ></path>
+              <path
+                fill="none"
+                stroke="#000000"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-miterlimit="10"
+                d="M7.005,8.995 L7.005,8.995c-1.374-1.374-1.374-3.601,0-4.975l1.99-1.99c1.374-1.374,3.601-1.374,4.975,0l0,0c1.374,1.374,1.374,3.601,0,4.975 l-1.748,1.698"
+              ></path>
+            </g></svg></span
+        ><span class="permalink"
+          ><svg viewBox="0 0 16 16" width="16" height="16">
+            <g stroke-width="1" fill="#000000" stroke="#000000">
+              <path
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-miterlimit="10"
+                d="M8.995,7.005 L8.995,7.005c1.374,1.374,1.374,3.601,0,4.975l-1.99,1.99c-1.374,1.374-3.601,1.374-4.975,0l0,0c-1.374-1.374-1.374-3.601,0-4.975 l1.748-1.698"
+              ></path>
+              <path
+                fill="none"
+                stroke="#000000"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-miterlimit="10"
+                d="M7.005,8.995 L7.005,8.995c-1.374-1.374-1.374-3.601,0-4.975l1.99-1.99c1.374-1.374,3.601-1.374,4.975,0l0,0c1.374,1.374,1.374,3.601,0,4.975 l-1.748,1.698"
+              ></path>
+            </g></svg></span></a
+      ><span class="permalink"
+        ><svg viewBox="0 0 16 16" width="16" height="16">
+          <g stroke-width="1" fill="#000000" stroke="#000000">
+            <path
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+              d="M8.995,7.005 L8.995,7.005c1.374,1.374,1.374,3.601,0,4.975l-1.99,1.99c-1.374,1.374-3.601,1.374-4.975,0l0,0c-1.374-1.374-1.374-3.601,0-4.975 l1.748-1.698"
+            ></path>
+            <path
+              fill="none"
+              stroke="#000000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+              d="M7.005,8.995 L7.005,8.995c-1.374-1.374-1.374-3.601,0-4.975l1.99-1.99c1.374-1.374,3.601-1.374,4.975,0l0,0c1.374,1.374,1.374,3.601,0,4.975 l-1.748,1.698"
+            ></path>
+          </g></svg
+      ></span>
+    </h4>
+    <p>
+      To run test, you can use the methods
+      <code class="inline">startLocalDynamoDB</code> and
+      <code class="inline">stopLocalDynamoDB</code>:
+    </p>
+    <pre><code>it('Should connect to DynamoDB table', async () => {
+  await startLocalDynamoDB();
+
+  const table = await connect();
+
+  const res = await table.send(
+    new DescribeTableCommand({
+      TableName: await getTableName(),
+    })
+  );
+
+  expect(res.Table?.TableName?.length).toBeGreaterThan(2);
+  expect(table).toBeDefined();
+
+  await stopLocalDynamoDB();
+});
+
+</code></pre>
+    <p>You can specify a port where the local DynamoDB server should run:</p>
+    <pre><code>await startLocalDynamoDB(8080);
+</code></pre>
+    <p>
+      By default the port <code class="inline">8000</code> will be used or the
+      value of the environment variable
+      <code class="inline">DYNAMODB_LOCAL_PORT)</code>.
+    </p>
+    <p>
+      Since starting local DynamoDB instances takes a long time, it is
+      recommended, to only call the
+      <code class="inline">startLocalDynamoDB</code> in your tests or test
+      suites.
+    </p>
+    <p>
+      Then call <code class="inline">stopAllLocalDynamoDB</code> in a global
+      teardown:
+    </p>
+    <p><code class="inline">scripts/globalTeardown.ts</code>:</p>
+    <pre
+      class="language-typescript language-typescript language-typescript"
+    ><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span> info <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@goldstack/utils-log'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> stopAllLocalDynamoDB <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./../src/table'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+  <span class="token function">info</span><span class="token punctuation">(</span>
+    <span class="token string">'Jest global teardown: Stopping all left over local DynamoDB instances.'</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">await</span> <span class="token function">stopAllLocalDynamoDB</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+    <p><code class="inline">jest.config.js</code>:</p>
+    <pre
+      class="language-javascript language-javascript language-javascript"
+    ><code class="language-javascript"><span class="token comment">// eslint-disable-next-line @typescript-eslint/no-var-requires</span>
+<span class="token keyword">const</span> base <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./../../jest.config'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+module<span class="token punctuation">.</span><span class="token property-access">exports</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token spread operator">...</span>base<span class="token punctuation">,</span>
+  globalTeardown<span class="token punctuation">:</span> <span class="token string">'&#x3C;rootDir>/scripts/globalTeardown.ts'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
   </div>
   <p></p>
 </div>
