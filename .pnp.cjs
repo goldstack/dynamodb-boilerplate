@@ -33,7 +33,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@goldstack/nodemonx", "npm:0.4.21"],\
-          ["@goldstack/utils-typescript-references", "npm:0.3.12"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.13"],\
           ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:22.10.2"],\
           ["@typescript-eslint/eslint-plugin", "virtual:c412b4138ce4b5f25e596915ac02ebe5aff7d1a04555c7f041998314b92be3680fdfdb4939b5a768bf45f7c6664fcfb910f4f646bab995307f894488decd9be4#npm:5.42.1"],\
@@ -3297,10 +3297,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-typescript-references", [\
-      ["npm:0.3.12", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-typescript-references-npm-0.3.12-e4fc97f991-e81a7fc2f2.zip/node_modules/@goldstack/utils-typescript-references/",\
+      ["npm:0.3.13", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-typescript-references-npm-0.3.13-490b1e9794-74dfa118db.zip/node_modules/@goldstack/utils-typescript-references/",\
         "packageDependencies": [\
-          ["@goldstack/utils-typescript-references", "npm:0.3.12"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.13"],\
+          ["@goldstack/utils-log", "npm:0.3.18"],\
           ["source-map-support", "npm:0.5.21"],\
           ["yargs", "npm:17.5.1"]\
         ],\
@@ -11943,7 +11944,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["project-dynamodb", "workspace:."],\
           ["@goldstack/nodemonx", "npm:0.4.21"],\
-          ["@goldstack/utils-typescript-references", "npm:0.3.12"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.13"],\
           ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:22.10.2"],\
           ["@typescript-eslint/eslint-plugin", "virtual:c412b4138ce4b5f25e596915ac02ebe5aff7d1a04555c7f041998314b92be3680fdfdb4939b5a768bf45f7c6664fcfb910f4f646bab995307f894488decd9be4#npm:5.42.1"],\
