@@ -10,9 +10,9 @@
       "awsUser": "goldstack-dev",
       "awsRegion": "us-west-2",
       "configuration": {
-        "tableName": "goldstack-ci-test-dynamodb-1741902389242"
+        "tableName": "goldstack-ci-test-dynamodb-1742889740164"
       },
-      "tfStateKey": "dynamodb-1-prod-a2e74ddbfd271239e563.tfstate"
+      "tfStateKey": "dynamodb-1-prod-a2056b5db8b5b63c986c.tfstate"
     }
   ]
 }
