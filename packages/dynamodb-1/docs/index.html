@@ -674,6 +674,36 @@ Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.3+12-LTS, mixed mode)
           </g></svg
       ></span>
     </h4>
+    <p>
+      Extend the schema with the attributes required for the Global Secondary
+      Index:
+    </p>
+    <pre
+      class="language-typescript language-typescript language-typescript"
+    ><code class="language-typescript"><span class="token keyword">const</span> <span class="token maybe-class-name">BaseSchema</span> <span class="token operator">=</span> <span class="token function">schema</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  userId<span class="token punctuation">:</span> <span class="token function">string</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">key</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  relationId<span class="token punctuation">:</span> <span class="token function">string</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">key</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  databaseId<span class="token punctuation">:</span> <span class="token function">string</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">key</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  possibleCreationDuplicates<span class="token punctuation">:</span> <span class="token function">list</span><span class="token punctuation">(</span><span class="token function">string</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">optional</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  possibleUpdateDuplicates<span class="token punctuation">:</span> <span class="token function">list</span><span class="token punctuation">(</span><span class="token function">string</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">optional</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token maybe-class-name">DatabaseStateSchema</span> <span class="token operator">=</span> <span class="token maybe-class-name">BaseSchema</span><span class="token punctuation">.</span><span class="token method function property-access">and</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  gs1_pk<span class="token punctuation">:</span> <span class="token function">string</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token method function property-access">optional</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token property-access">link</span><span class="token operator">&#x3C;</span><span class="token keyword">typeof</span> <span class="token maybe-class-name">BaseSchema</span><span class="token operator">></span><span class="token punctuation">(</span>
+      <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> databaseId <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">DATABASE_STATE#</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>databaseId<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span>
+    <span class="token punctuation">)</span><span class="token punctuation">,</span>
+  gs1_sk<span class="token punctuation">:</span> <span class="token function">string</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token method function property-access">optional</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token property-access">link</span><span class="token operator">&#x3C;</span><span class="token keyword">typeof</span> <span class="token maybe-class-name">BaseSchema</span><span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> relationId <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>relationId<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+    <p>
+      Then create the index in a migration (this will ensure it is available for
+      local testing).
+    </p>
+    <p>Note: Creating a new GSI can take a LONG time</p>
     <pre
       class="language-typescript language-typescript language-typescript"
     ><code class="language-typescript"><span class="token keyword">export</span> <span class="token keyword">const</span> createMigrations <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token maybe-class-name">InputMigrations</span><span class="token operator">&#x3C;</span><span class="token maybe-class-name">DynamoDBContext</span><span class="token operator">></span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
@@ -737,7 +767,7 @@ Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.3+12-LTS, mixed mode)
           <span class="token punctuation">}</span>
 
           <span class="token keyword">let</span> active <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
-          <span class="token keyword">let</span> retriesLeft <span class="token operator">=</span> <span class="token number">60</span><span class="token punctuation">;</span>
+          <span class="token keyword">let</span> retriesLeft <span class="token operator">=</span> <span class="token number">520</span><span class="token punctuation">;</span>
           <span class="token function">debug</span><span class="token punctuation">(</span><span class="token string">'Waiting for GSI to become active...'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
           <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token operator">!</span>active <span class="token operator">&#x26;&#x26;</span> retriesLeft <span class="token operator">></span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
             <span class="token keyword">const</span> describe <span class="token operator">=</span> <span class="token keyword">await</span> context<span class="token punctuation">.</span><span class="token property-access">client</span><span class="token punctuation">.</span><span class="token method function property-access">send</span><span class="token punctuation">(</span>
@@ -756,6 +786,9 @@ Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.3+12-LTS, mixed mode)
             retriesLeft<span class="token operator">--</span><span class="token punctuation">;</span>
           <span class="token punctuation">}</span>
 
+          <span class="token keyword">if</span> <span class="token punctuation">(</span>retriesLeft <span class="token operator">===</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token function">warn</span><span class="token punctuation">(</span><span class="token string">'GSI did not fully become active after migration'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+          <span class="token punctuation">}</span>
           <span class="token comment">// you may want to migrate existing data to match to the GSI fields</span>
         <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span>e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
           <span class="token function">error</span><span class="token punctuation">(</span><span class="token string">'Error running migration: '</span> <span class="token operator">+</span> e<span class="token punctuation">.</span><span class="token property-access">message</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> error<span class="token punctuation">:</span> e <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
