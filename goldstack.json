@@ -1,8 +1,8 @@
 {
   "$schema": "./schemas/package.schema.json",
+  "name": "project-dynamodb",
   "configuration": {},
   "deployments": [],
-  "name": "project-dynamodb",
   "template": "yarn-pnp-monorepo",
   "templateVersion": "0.1.0"
 }
