@@ -33,9 +33,9 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@biomejs/biome", "npm:2.1.1"],\
-          ["@goldstack/nodemonx", "npm:0.4.28"],\
-          ["@goldstack/utils-typescript-references", "npm:0.3.18"],\
+          ["@biomejs/biome", "npm:2.3.5"],\
+          ["@goldstack/nodemonx", "npm:0.4.29"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.19"],\
           ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:24.0.13"],\
           ["nodemon", "npm:2.0.20"],\
@@ -1177,7 +1177,7 @@ const RAW_RUNTIME_STATE =
           ["@aws-sdk/client-dynamodb", "npm:3.896.0"],\
           ["@aws-sdk/core", "npm:3.896.0"],\
           ["@aws-sdk/lib-dynamodb", "virtual:4e1f3d48c363dfd415bd7dac6f5ddbf266cd959a847b61e42b10fe044b30237bcc02fb4e1ac91914d5995210473f28564a9ca330926dfe6cbd7e1a0a262fc3fa#npm:3.896.0"],\
-          ["@aws-sdk/util-dynamodb", "virtual:ee676498bb658c513d1963a8cd709cb60b1dae0143a902d68e7a2ddeeaf96b53a0bef7639c4525dba34a2047f0cfa6d33bbdcd52c39b094fb32e7f2b3a10e3da#npm:3.896.0"],\
+          ["@aws-sdk/util-dynamodb", "virtual:4d791bce0fd7bacf900734cedb1202199bc8e45d16246f9bcfea5a9ec2f4cd7e09ade26b3265bab0d1a53711ab1dc3919a6228d7b574442b628d29805beea54e#npm:3.896.0"],\
           ["@smithy/core", "npm:3.13.0"],\
           ["@smithy/smithy-client", "npm:4.6.5"],\
           ["@smithy/types", "npm:4.5.0"],\
@@ -1694,11 +1694,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:ee676498bb658c513d1963a8cd709cb60b1dae0143a902d68e7a2ddeeaf96b53a0bef7639c4525dba34a2047f0cfa6d33bbdcd52c39b094fb32e7f2b3a10e3da#npm:3.896.0", {\
-        "packageLocation": "./.yarn/__virtual__/@aws-sdk-util-dynamodb-virtual-26d5037476/0/cache/@aws-sdk-util-dynamodb-npm-3.896.0-0cc31cbebe-cefb1501c9.zip/node_modules/@aws-sdk/util-dynamodb/",\
+      ["virtual:4d791bce0fd7bacf900734cedb1202199bc8e45d16246f9bcfea5a9ec2f4cd7e09ade26b3265bab0d1a53711ab1dc3919a6228d7b574442b628d29805beea54e#npm:3.896.0", {\
+        "packageLocation": "./.yarn/__virtual__/@aws-sdk-util-dynamodb-virtual-452980a623/0/cache/@aws-sdk-util-dynamodb-npm-3.896.0-0cc31cbebe-cefb1501c9.zip/node_modules/@aws-sdk/util-dynamodb/",\
         "packageDependencies": [\
           ["@aws-sdk/client-dynamodb", "npm:3.896.0"],\
-          ["@aws-sdk/util-dynamodb", "virtual:ee676498bb658c513d1963a8cd709cb60b1dae0143a902d68e7a2ddeeaf96b53a0bef7639c4525dba34a2047f0cfa6d33bbdcd52c39b094fb32e7f2b3a10e3da#npm:3.896.0"],\
+          ["@aws-sdk/util-dynamodb", "virtual:4d791bce0fd7bacf900734cedb1202199bc8e45d16246f9bcfea5a9ec2f4cd7e09ade26b3265bab0d1a53711ab1dc3919a6228d7b574442b628d29805beea54e#npm:3.896.0"],\
           ["@types/aws-sdk__client-dynamodb", null],\
           ["tslib", "npm:2.7.0"]\
         ],\
@@ -3141,90 +3141,90 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@biomejs/biome", [\
-      ["npm:2.1.1", {\
-        "packageLocation": "./.yarn/cache/@biomejs-biome-npm-2.1.1-47ce04411d-f114f220d3.zip/node_modules/@biomejs/biome/",\
+      ["npm:2.3.5", {\
+        "packageLocation": "./.yarn/cache/@biomejs-biome-npm-2.3.5-00322d2911-97e17231ac.zip/node_modules/@biomejs/biome/",\
         "packageDependencies": [\
-          ["@biomejs/biome", "npm:2.1.1"],\
-          ["@biomejs/cli-darwin-arm64", "npm:2.1.1"],\
-          ["@biomejs/cli-darwin-x64", "npm:2.1.1"],\
-          ["@biomejs/cli-linux-arm64", "npm:2.1.1"],\
-          ["@biomejs/cli-linux-arm64-musl", "npm:2.1.1"],\
-          ["@biomejs/cli-linux-x64", "npm:2.1.1"],\
-          ["@biomejs/cli-linux-x64-musl", "npm:2.1.1"],\
-          ["@biomejs/cli-win32-arm64", "npm:2.1.1"],\
-          ["@biomejs/cli-win32-x64", "npm:2.1.1"]\
+          ["@biomejs/biome", "npm:2.3.5"],\
+          ["@biomejs/cli-darwin-arm64", "npm:2.3.5"],\
+          ["@biomejs/cli-darwin-x64", "npm:2.3.5"],\
+          ["@biomejs/cli-linux-arm64", "npm:2.3.5"],\
+          ["@biomejs/cli-linux-arm64-musl", "npm:2.3.5"],\
+          ["@biomejs/cli-linux-x64", "npm:2.3.5"],\
+          ["@biomejs/cli-linux-x64-musl", "npm:2.3.5"],\
+          ["@biomejs/cli-win32-arm64", "npm:2.3.5"],\
+          ["@biomejs/cli-win32-x64", "npm:2.3.5"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@biomejs/cli-darwin-arm64", [\
-      ["npm:2.1.1", {\
-        "packageLocation": "./.yarn/unplugged/@biomejs-cli-darwin-arm64-npm-2.1.1-2c17672e8d/node_modules/@biomejs/cli-darwin-arm64/",\
+      ["npm:2.3.5", {\
+        "packageLocation": "./.yarn/unplugged/@biomejs-cli-darwin-arm64-npm-2.3.5-af5ed63262/node_modules/@biomejs/cli-darwin-arm64/",\
         "packageDependencies": [\
-          ["@biomejs/cli-darwin-arm64", "npm:2.1.1"]\
+          ["@biomejs/cli-darwin-arm64", "npm:2.3.5"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@biomejs/cli-darwin-x64", [\
-      ["npm:2.1.1", {\
-        "packageLocation": "./.yarn/unplugged/@biomejs-cli-darwin-x64-npm-2.1.1-6fb1546560/node_modules/@biomejs/cli-darwin-x64/",\
+      ["npm:2.3.5", {\
+        "packageLocation": "./.yarn/unplugged/@biomejs-cli-darwin-x64-npm-2.3.5-d0474a7ed7/node_modules/@biomejs/cli-darwin-x64/",\
         "packageDependencies": [\
-          ["@biomejs/cli-darwin-x64", "npm:2.1.1"]\
+          ["@biomejs/cli-darwin-x64", "npm:2.3.5"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@biomejs/cli-linux-arm64", [\
-      ["npm:2.1.1", {\
-        "packageLocation": "./.yarn/unplugged/@biomejs-cli-linux-arm64-npm-2.1.1-42bea6503f/node_modules/@biomejs/cli-linux-arm64/",\
+      ["npm:2.3.5", {\
+        "packageLocation": "./.yarn/unplugged/@biomejs-cli-linux-arm64-npm-2.3.5-32dae141a8/node_modules/@biomejs/cli-linux-arm64/",\
         "packageDependencies": [\
-          ["@biomejs/cli-linux-arm64", "npm:2.1.1"]\
+          ["@biomejs/cli-linux-arm64", "npm:2.3.5"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@biomejs/cli-linux-arm64-musl", [\
-      ["npm:2.1.1", {\
-        "packageLocation": "./.yarn/unplugged/@biomejs-cli-linux-arm64-musl-npm-2.1.1-77ab7362a7/node_modules/@biomejs/cli-linux-arm64-musl/",\
+      ["npm:2.3.5", {\
+        "packageLocation": "./.yarn/unplugged/@biomejs-cli-linux-arm64-musl-npm-2.3.5-27322e639e/node_modules/@biomejs/cli-linux-arm64-musl/",\
         "packageDependencies": [\
-          ["@biomejs/cli-linux-arm64-musl", "npm:2.1.1"]\
+          ["@biomejs/cli-linux-arm64-musl", "npm:2.3.5"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@biomejs/cli-linux-x64", [\
-      ["npm:2.1.1", {\
-        "packageLocation": "./.yarn/unplugged/@biomejs-cli-linux-x64-npm-2.1.1-186764f7d9/node_modules/@biomejs/cli-linux-x64/",\
+      ["npm:2.3.5", {\
+        "packageLocation": "./.yarn/unplugged/@biomejs-cli-linux-x64-npm-2.3.5-d179509c88/node_modules/@biomejs/cli-linux-x64/",\
         "packageDependencies": [\
-          ["@biomejs/cli-linux-x64", "npm:2.1.1"]\
+          ["@biomejs/cli-linux-x64", "npm:2.3.5"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@biomejs/cli-linux-x64-musl", [\
-      ["npm:2.1.1", {\
-        "packageLocation": "./.yarn/unplugged/@biomejs-cli-linux-x64-musl-npm-2.1.1-eb744bb3a4/node_modules/@biomejs/cli-linux-x64-musl/",\
+      ["npm:2.3.5", {\
+        "packageLocation": "./.yarn/unplugged/@biomejs-cli-linux-x64-musl-npm-2.3.5-d0a1a37a6a/node_modules/@biomejs/cli-linux-x64-musl/",\
         "packageDependencies": [\
-          ["@biomejs/cli-linux-x64-musl", "npm:2.1.1"]\
+          ["@biomejs/cli-linux-x64-musl", "npm:2.3.5"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@biomejs/cli-win32-arm64", [\
-      ["npm:2.1.1", {\
-        "packageLocation": "./.yarn/unplugged/@biomejs-cli-win32-arm64-npm-2.1.1-a50ec6dcac/node_modules/@biomejs/cli-win32-arm64/",\
+      ["npm:2.3.5", {\
+        "packageLocation": "./.yarn/unplugged/@biomejs-cli-win32-arm64-npm-2.3.5-3d77d93b51/node_modules/@biomejs/cli-win32-arm64/",\
         "packageDependencies": [\
-          ["@biomejs/cli-win32-arm64", "npm:2.1.1"]\
+          ["@biomejs/cli-win32-arm64", "npm:2.3.5"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@biomejs/cli-win32-x64", [\
-      ["npm:2.1.1", {\
-        "packageLocation": "./.yarn/unplugged/@biomejs-cli-win32-x64-npm-2.1.1-69fe5d930b/node_modules/@biomejs/cli-win32-x64/",\
+      ["npm:2.3.5", {\
+        "packageLocation": "./.yarn/unplugged/@biomejs-cli-win32-x64-npm-2.3.5-d12fd4ed88/node_modules/@biomejs/cli-win32-x64/",\
         "packageDependencies": [\
-          ["@biomejs/cli-win32-x64", "npm:2.1.1"]\
+          ["@biomejs/cli-win32-x64", "npm:2.3.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3249,30 +3249,30 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/infra", [\
-      ["npm:0.4.27", {\
-        "packageLocation": "./.yarn/cache/@goldstack-infra-npm-0.4.27-b6f928d844-fe327a33bc.zip/node_modules/@goldstack/infra/",\
+      ["npm:0.4.28", {\
+        "packageLocation": "./.yarn/cache/@goldstack-infra-npm-0.4.28-5569569513-9f20af77c9.zip/node_modules/@goldstack/infra/",\
         "packageDependencies": [\
-          ["@goldstack/infra", "npm:0.4.27"],\
-          ["@goldstack/utils-config", "npm:0.4.27"],\
-          ["@goldstack/utils-log", "npm:0.3.23"],\
-          ["@goldstack/utils-sh", "npm:0.5.26"]\
+          ["@goldstack/infra", "npm:0.4.28"],\
+          ["@goldstack/utils-config", "npm:0.4.28"],\
+          ["@goldstack/utils-log", "npm:0.3.24"],\
+          ["@goldstack/utils-sh", "npm:0.5.27"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/infra-aws", [\
-      ["npm:0.4.40", {\
-        "packageLocation": "./.yarn/cache/@goldstack-infra-aws-npm-0.4.40-ddd271a118-6f24a3244e.zip/node_modules/@goldstack/infra-aws/",\
+      ["npm:0.4.41", {\
+        "packageLocation": "./.yarn/cache/@goldstack-infra-aws-npm-0.4.41-72d6379312-6e0ade2224.zip/node_modules/@goldstack/infra-aws/",\
         "packageDependencies": [\
           ["@aws-sdk/client-sts", "npm:3.896.0"],\
           ["@aws-sdk/credential-providers", "npm:3.896.0"],\
           ["@aws-sdk/types", "npm:3.893.0"],\
-          ["@goldstack/infra", "npm:0.4.27"],\
-          ["@goldstack/infra-aws", "npm:0.4.40"],\
-          ["@goldstack/utils-config", "npm:0.4.27"],\
-          ["@goldstack/utils-log", "npm:0.3.23"],\
-          ["@goldstack/utils-package", "npm:0.4.27"],\
-          ["@goldstack/utils-sh", "npm:0.5.26"],\
+          ["@goldstack/infra", "npm:0.4.28"],\
+          ["@goldstack/infra-aws", "npm:0.4.41"],\
+          ["@goldstack/utils-config", "npm:0.4.28"],\
+          ["@goldstack/utils-log", "npm:0.3.24"],\
+          ["@goldstack/utils-package", "npm:0.4.28"],\
+          ["@goldstack/utils-sh", "npm:0.5.27"],\
           ["axios", "npm:1.12.2"],\
           ["handlebars", "npm:4.7.7"]\
         ],\
@@ -3280,12 +3280,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/nodemonx", [\
-      ["npm:0.4.28", {\
-        "packageLocation": "./.yarn/cache/@goldstack-nodemonx-npm-0.4.28-6d69bad09a-19bd8c2ce0.zip/node_modules/@goldstack/nodemonx/",\
+      ["npm:0.4.29", {\
+        "packageLocation": "./.yarn/cache/@goldstack-nodemonx-npm-0.4.29-e4695f3138-aa01b9b18a.zip/node_modules/@goldstack/nodemonx/",\
         "packageDependencies": [\
-          ["@goldstack/nodemonx", "npm:0.4.28"],\
-          ["@goldstack/utils-log", "npm:0.3.23"],\
-          ["@goldstack/utils-sh", "npm:0.5.26"],\
+          ["@goldstack/nodemonx", "npm:0.4.29"],\
+          ["@goldstack/utils-log", "npm:0.3.24"],\
+          ["@goldstack/utils-sh", "npm:0.5.27"],\
           ["minimatch", "npm:10.0.1"],\
           ["node-watch", "npm:0.6.4"]\
         ],\
@@ -3293,22 +3293,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-dynamodb", [\
-      ["npm:0.3.47", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-npm-0.3.47-ee676498bb-574219a49a.zip/node_modules/@goldstack/template-dynamodb/",\
+      ["npm:0.3.48", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-npm-0.3.48-4d791bce0f-bdc25ec6b1.zip/node_modules/@goldstack/template-dynamodb/",\
         "packageDependencies": [\
           ["@aws-sdk/client-dynamodb", "npm:3.896.0"],\
           ["@aws-sdk/credential-providers", "npm:3.896.0"],\
           ["@aws-sdk/types", "npm:3.893.0"],\
-          ["@aws-sdk/util-dynamodb", "virtual:ee676498bb658c513d1963a8cd709cb60b1dae0143a902d68e7a2ddeeaf96b53a0bef7639c4525dba34a2047f0cfa6d33bbdcd52c39b094fb32e7f2b3a10e3da#npm:3.896.0"],\
-          ["@goldstack/infra", "npm:0.4.27"],\
-          ["@goldstack/infra-aws", "npm:0.4.40"],\
-          ["@goldstack/template-dynamodb", "npm:0.3.47"],\
-          ["@goldstack/utils-esbuild", "npm:0.5.17"],\
-          ["@goldstack/utils-log", "npm:0.3.23"],\
-          ["@goldstack/utils-package", "npm:0.4.27"],\
-          ["@goldstack/utils-package-config-embedded", "npm:0.5.28"],\
-          ["@goldstack/utils-sh", "npm:0.5.26"],\
-          ["@goldstack/utils-terraform", "npm:0.4.52"],\
+          ["@aws-sdk/util-dynamodb", "virtual:4d791bce0fd7bacf900734cedb1202199bc8e45d16246f9bcfea5a9ec2f4cd7e09ade26b3265bab0d1a53711ab1dc3919a6228d7b574442b628d29805beea54e#npm:3.896.0"],\
+          ["@goldstack/infra", "npm:0.4.28"],\
+          ["@goldstack/infra-aws", "npm:0.4.41"],\
+          ["@goldstack/template-dynamodb", "npm:0.3.48"],\
+          ["@goldstack/utils-esbuild", "npm:0.5.18"],\
+          ["@goldstack/utils-log", "npm:0.3.24"],\
+          ["@goldstack/utils-package", "npm:0.4.28"],\
+          ["@goldstack/utils-package-config-embedded", "npm:0.5.29"],\
+          ["@goldstack/utils-sh", "npm:0.5.27"],\
+          ["@goldstack/utils-terraform", "npm:0.4.53"],\
           ["dynamo-db-local", "npm:8.0.0"],\
           ["tcp-port-used", "npm:1.0.2"],\
           ["umzug", "npm:3.8.2"],\
@@ -3318,18 +3318,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-dynamodb-cli", [\
-      ["npm:0.6.48", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.6.48-7acb392f7b-3e667f5674.zip/node_modules/@goldstack/template-dynamodb-cli/",\
+      ["npm:0.6.49", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.6.49-39e7b8f3fd-8766d74f43.zip/node_modules/@goldstack/template-dynamodb-cli/",\
         "packageDependencies": [\
-          ["@goldstack/template-dynamodb", "npm:0.3.47"],\
-          ["@goldstack/template-dynamodb-cli", "npm:0.6.48"],\
-          ["@goldstack/utils-cli", "npm:0.3.21"],\
-          ["@goldstack/utils-log", "npm:0.3.23"],\
-          ["@goldstack/utils-package", "npm:0.4.27"],\
-          ["@goldstack/utils-package-config", "npm:0.4.27"],\
-          ["@goldstack/utils-sh", "npm:0.5.26"],\
-          ["@goldstack/utils-terraform", "npm:0.4.52"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.55"],\
+          ["@goldstack/template-dynamodb", "npm:0.3.48"],\
+          ["@goldstack/template-dynamodb-cli", "npm:0.6.49"],\
+          ["@goldstack/utils-cli", "npm:0.3.22"],\
+          ["@goldstack/utils-log", "npm:0.3.24"],\
+          ["@goldstack/utils-package", "npm:0.4.28"],\
+          ["@goldstack/utils-package-config", "npm:0.4.28"],\
+          ["@goldstack/utils-sh", "npm:0.5.27"],\
+          ["@goldstack/utils-terraform", "npm:0.4.53"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.56"],\
           ["source-map-support", "npm:0.5.21"],\
           ["umzug", "npm:3.8.2"],\
           ["yargs", "npm:17.5.1"]\
@@ -3338,10 +3338,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-cli", [\
-      ["npm:0.3.21", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-cli-npm-0.3.21-160e56a3d0-4ded43dc3c.zip/node_modules/@goldstack/utils-cli/",\
+      ["npm:0.3.22", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-cli-npm-0.3.22-df33bbac4a-4dd1942e1d.zip/node_modules/@goldstack/utils-cli/",\
         "packageDependencies": [\
-          ["@goldstack/utils-cli", "npm:0.3.21"],\
+          ["@goldstack/utils-cli", "npm:0.3.22"],\
           ["pino", "npm:9.4.0"],\
           ["pino-pretty", "npm:11.2.2"]\
         ],\
@@ -3349,12 +3349,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-config", [\
-      ["npm:0.4.27", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-config-npm-0.4.27-899555080f-b472944787.zip/node_modules/@goldstack/utils-config/",\
+      ["npm:0.4.28", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-config-npm-0.4.28-f9233d6a36-3085b70930.zip/node_modules/@goldstack/utils-config/",\
         "packageDependencies": [\
-          ["@goldstack/utils-config", "npm:0.4.27"],\
-          ["@goldstack/utils-log", "npm:0.3.23"],\
-          ["@goldstack/utils-sh", "npm:0.5.26"],\
+          ["@goldstack/utils-config", "npm:0.4.28"],\
+          ["@goldstack/utils-log", "npm:0.3.24"],\
+          ["@goldstack/utils-sh", "npm:0.5.27"],\
           ["ajv", "npm:6.12.6"],\
           ["handlebars", "npm:4.7.7"]\
         ],\
@@ -3362,79 +3362,79 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-docker", [\
-      ["npm:0.4.28", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-docker-npm-0.4.28-d1cd810341-dc1a439a8f.zip/node_modules/@goldstack/utils-docker/",\
+      ["npm:0.4.29", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-docker-npm-0.4.29-43b09ae679-aa6bd5be30.zip/node_modules/@goldstack/utils-docker/",\
         "packageDependencies": [\
-          ["@goldstack/utils-docker", "npm:0.4.28"],\
-          ["@goldstack/utils-log", "npm:0.3.23"],\
-          ["@goldstack/utils-sh", "npm:0.5.26"]\
+          ["@goldstack/utils-docker", "npm:0.4.29"],\
+          ["@goldstack/utils-log", "npm:0.3.24"],\
+          ["@goldstack/utils-sh", "npm:0.5.27"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-esbuild", [\
-      ["npm:0.5.17", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-esbuild-npm-0.5.17-c13ce9e77f-d5ec1402d1.zip/node_modules/@goldstack/utils-esbuild/",\
+      ["npm:0.5.18", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-esbuild-npm-0.5.18-d98f5339ff-d9f55f54c7.zip/node_modules/@goldstack/utils-esbuild/",\
         "packageDependencies": [\
-          ["@goldstack/utils-esbuild", "npm:0.5.17"]\
+          ["@goldstack/utils-esbuild", "npm:0.5.18"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-log", [\
-      ["npm:0.3.23", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-log-npm-0.3.23-51e5870f5d-b717a59c56.zip/node_modules/@goldstack/utils-log/",\
+      ["npm:0.3.24", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-log-npm-0.3.24-df90aa4dc4-7d676957d2.zip/node_modules/@goldstack/utils-log/",\
         "packageDependencies": [\
-          ["@goldstack/utils-cli", "npm:0.3.21"],\
-          ["@goldstack/utils-log", "npm:0.3.23"]\
+          ["@goldstack/utils-cli", "npm:0.3.22"],\
+          ["@goldstack/utils-log", "npm:0.3.24"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-package", [\
-      ["npm:0.4.27", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-package-npm-0.4.27-fa309035dd-786cce10f8.zip/node_modules/@goldstack/utils-package/",\
+      ["npm:0.4.28", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-package-npm-0.4.28-f3e99cd610-2b57595ae8.zip/node_modules/@goldstack/utils-package/",\
         "packageDependencies": [\
-          ["@goldstack/infra", "npm:0.4.27"],\
-          ["@goldstack/utils-config", "npm:0.4.27"],\
-          ["@goldstack/utils-package", "npm:0.4.27"],\
-          ["@goldstack/utils-sh", "npm:0.5.26"],\
+          ["@goldstack/infra", "npm:0.4.28"],\
+          ["@goldstack/utils-config", "npm:0.4.28"],\
+          ["@goldstack/utils-package", "npm:0.4.28"],\
+          ["@goldstack/utils-sh", "npm:0.5.27"],\
           ["yargs", "npm:17.5.1"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-package-config", [\
-      ["npm:0.4.27", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-package-config-npm-0.4.27-d11b38eb1e-af8c1cd557.zip/node_modules/@goldstack/utils-package-config/",\
+      ["npm:0.4.28", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-package-config-npm-0.4.28-a390c9ecbd-e65b385c69.zip/node_modules/@goldstack/utils-package-config/",\
         "packageDependencies": [\
-          ["@goldstack/infra", "npm:0.4.27"],\
-          ["@goldstack/utils-config", "npm:0.4.27"],\
-          ["@goldstack/utils-package", "npm:0.4.27"],\
-          ["@goldstack/utils-package-config", "npm:0.4.27"],\
-          ["@goldstack/utils-sh", "npm:0.5.26"]\
+          ["@goldstack/infra", "npm:0.4.28"],\
+          ["@goldstack/utils-config", "npm:0.4.28"],\
+          ["@goldstack/utils-package", "npm:0.4.28"],\
+          ["@goldstack/utils-package-config", "npm:0.4.28"],\
+          ["@goldstack/utils-sh", "npm:0.5.27"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-package-config-embedded", [\
-      ["npm:0.5.28", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-package-config-embedded-npm-0.5.28-b60c46234a-30cf4c1dbe.zip/node_modules/@goldstack/utils-package-config-embedded/",\
+      ["npm:0.5.29", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-package-config-embedded-npm-0.5.29-b1daf81cf4-1d711a05a9.zip/node_modules/@goldstack/utils-package-config-embedded/",\
         "packageDependencies": [\
-          ["@goldstack/infra", "npm:0.4.27"],\
-          ["@goldstack/utils-config", "npm:0.4.27"],\
-          ["@goldstack/utils-package", "npm:0.4.27"],\
-          ["@goldstack/utils-package-config-embedded", "npm:0.5.28"]\
+          ["@goldstack/infra", "npm:0.4.28"],\
+          ["@goldstack/utils-config", "npm:0.4.28"],\
+          ["@goldstack/utils-package", "npm:0.4.28"],\
+          ["@goldstack/utils-package-config-embedded", "npm:0.5.29"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-sh", [\
-      ["npm:0.5.26", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-sh-npm-0.5.26-d25b18baba-10a7bc6a7a.zip/node_modules/@goldstack/utils-sh/",\
+      ["npm:0.5.27", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-sh-npm-0.5.27-9f067e7fd9-02d9a9d49f.zip/node_modules/@goldstack/utils-sh/",\
         "packageDependencies": [\
-          ["@goldstack/utils-log", "npm:0.3.23"],\
-          ["@goldstack/utils-sh", "npm:0.5.26"],\
+          ["@goldstack/utils-log", "npm:0.3.24"],\
+          ["@goldstack/utils-sh", "npm:0.5.27"],\
           ["archiver", "npm:5.3.1"],\
           ["extract-zip", "npm:2.0.1"],\
           ["fs-extra", "npm:11.2.0"],\
@@ -3446,17 +3446,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform", [\
-      ["npm:0.4.52", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.52-0853f5b485-ceb3f3a7f6.zip/node_modules/@goldstack/utils-terraform/",\
+      ["npm:0.4.53", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.53-74499716e0-6609fd0635.zip/node_modules/@goldstack/utils-terraform/",\
         "packageDependencies": [\
-          ["@goldstack/infra", "npm:0.4.27"],\
-          ["@goldstack/infra-aws", "npm:0.4.40"],\
-          ["@goldstack/utils-config", "npm:0.4.27"],\
-          ["@goldstack/utils-docker", "npm:0.4.28"],\
-          ["@goldstack/utils-log", "npm:0.3.23"],\
-          ["@goldstack/utils-package", "npm:0.4.27"],\
-          ["@goldstack/utils-sh", "npm:0.5.26"],\
-          ["@goldstack/utils-terraform", "npm:0.4.52"],\
+          ["@goldstack/infra", "npm:0.4.28"],\
+          ["@goldstack/infra-aws", "npm:0.4.41"],\
+          ["@goldstack/utils-config", "npm:0.4.28"],\
+          ["@goldstack/utils-docker", "npm:0.4.29"],\
+          ["@goldstack/utils-log", "npm:0.3.24"],\
+          ["@goldstack/utils-package", "npm:0.4.28"],\
+          ["@goldstack/utils-sh", "npm:0.5.27"],\
+          ["@goldstack/utils-terraform", "npm:0.4.53"],\
           ["json-stable-stringify", "npm:1.0.1"],\
           ["yargs", "npm:17.5.1"]\
         ],\
@@ -3464,30 +3464,30 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform-aws", [\
-      ["npm:0.4.55", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.55-50b8beaf95-287c01eea6.zip/node_modules/@goldstack/utils-terraform-aws/",\
+      ["npm:0.4.56", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.56-6524e8446d-d57f8049e5.zip/node_modules/@goldstack/utils-terraform-aws/",\
         "packageDependencies": [\
           ["@aws-sdk/client-dynamodb", "npm:3.896.0"],\
           ["@aws-sdk/client-s3", "npm:3.896.0"],\
           ["@aws-sdk/types", "npm:3.893.0"],\
-          ["@goldstack/infra-aws", "npm:0.4.40"],\
-          ["@goldstack/utils-cli", "npm:0.3.21"],\
-          ["@goldstack/utils-config", "npm:0.4.27"],\
-          ["@goldstack/utils-log", "npm:0.3.23"],\
-          ["@goldstack/utils-package", "npm:0.4.27"],\
-          ["@goldstack/utils-sh", "npm:0.5.26"],\
-          ["@goldstack/utils-terraform", "npm:0.4.52"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.55"]\
+          ["@goldstack/infra-aws", "npm:0.4.41"],\
+          ["@goldstack/utils-cli", "npm:0.3.22"],\
+          ["@goldstack/utils-config", "npm:0.4.28"],\
+          ["@goldstack/utils-log", "npm:0.3.24"],\
+          ["@goldstack/utils-package", "npm:0.4.28"],\
+          ["@goldstack/utils-sh", "npm:0.5.27"],\
+          ["@goldstack/utils-terraform", "npm:0.4.53"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.56"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-typescript-references", [\
-      ["npm:0.3.18", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-typescript-references-npm-0.3.18-f0043f3928-a38043ed4b.zip/node_modules/@goldstack/utils-typescript-references/",\
+      ["npm:0.3.19", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-typescript-references-npm-0.3.19-a06c4dbf9b-34d40c3ab7.zip/node_modules/@goldstack/utils-typescript-references/",\
         "packageDependencies": [\
-          ["@goldstack/utils-log", "npm:0.3.23"],\
-          ["@goldstack/utils-typescript-references", "npm:0.3.18"],\
+          ["@goldstack/utils-log", "npm:0.3.24"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.19"],\
           ["source-map-support", "npm:0.5.21"],\
           ["yargs", "npm:17.5.1"]\
         ],\
@@ -7526,9 +7526,9 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@aws-sdk/client-dynamodb", "npm:3.896.0"],\
           ["@aws-sdk/lib-dynamodb", "virtual:4e1f3d48c363dfd415bd7dac6f5ddbf266cd959a847b61e42b10fe044b30237bcc02fb4e1ac91914d5995210473f28564a9ca330926dfe6cbd7e1a0a262fc3fa#npm:3.896.0"],\
-          ["@goldstack/template-dynamodb", "npm:0.3.47"],\
-          ["@goldstack/template-dynamodb-cli", "npm:0.6.48"],\
-          ["@goldstack/utils-log", "npm:0.3.23"],\
+          ["@goldstack/template-dynamodb", "npm:0.3.48"],\
+          ["@goldstack/template-dynamodb-cli", "npm:0.6.49"],\
+          ["@goldstack/utils-log", "npm:0.3.24"],\
           ["@swc/core", "virtual:4e1f3d48c363dfd415bd7dac6f5ddbf266cd959a847b61e42b10fe044b30237bcc02fb4e1ac91914d5995210473f28564a9ca330926dfe6cbd7e1a0a262fc3fa#npm:1.12.11"],\
           ["@swc/jest", "virtual:4e1f3d48c363dfd415bd7dac6f5ddbf266cd959a847b61e42b10fe044b30237bcc02fb4e1ac91914d5995210473f28564a9ca330926dfe6cbd7e1a0a262fc3fa#npm:0.2.39"],\
           ["@types/ejs", "npm:3.1.5"],\
@@ -11230,9 +11230,9 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@biomejs/biome", "npm:2.1.1"],\
-          ["@goldstack/nodemonx", "npm:0.4.28"],\
-          ["@goldstack/utils-typescript-references", "npm:0.3.18"],\
+          ["@biomejs/biome", "npm:2.3.5"],\
+          ["@goldstack/nodemonx", "npm:0.4.29"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.19"],\
           ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:24.0.13"],\
           ["nodemon", "npm:2.0.20"],\
