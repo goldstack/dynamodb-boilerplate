@@ -1,6 +1,7 @@
 import { info, warn } from '@goldstack/utils-log';
 import DynamoDB from 'aws-sdk/clients/dynamodb';
 import { createServer } from 'dynamodb-admin';
+import type { Server } from 'http';
 import * as readline from 'readline';
 import { connect, stopAllLocalDynamoDB, stopLocalDynamoDB } from './../src/table';
 
@@ -21,24 +22,30 @@ import { connect, stopAllLocalDynamoDB, stopLocalDynamoDB } from './../src/table
       secretAccessKey: 'dummy',
     },
   });
-  let localAdminServer: undefined | any;
+  let localAdminServer: undefined | Server;
   await new Promise<void>(async (resolve, _reject) => {
     const localAdmin = await createServer(
-      client as any, // otherwise strange type error occurs
+      client as any, // biome-ignore lint/suspicious/noExplicitAny: Type mismatch with dynamodb-admin library
       new DynamoDB.DocumentClient({ service: client }),
     );
     const adminPort = process.env.DYNAMODB_ADMIN_PORT || '8001';
     localAdminServer = localAdmin.listen(adminPort, 'localhost');
     const server = localAdminServer;
-    localAdminServer.on('listening', () => {
-      const address = server.address();
+    // localAdminServer is defined at this point
+    localAdminServer!.on('listening', () => {
+      const address = server!.address();
       if (!address) {
         throw new Error('Local admin server not started successfully.');
       }
-      info(`DynamoDB Admin started on http://localhost:${address.port}`);
+      // address can be string or AddressInfo
+      if (typeof address === 'string') {
+        info(`DynamoDB Admin started on ${address}`);
+      } else {
+        info(`DynamoDB Admin started on http://localhost:${address.port}`);
+      }
       resolve();
     });
-    localAdminServer.on('error', () => {
+    localAdminServer!.on('error', () => {
       warn(
         `Cannot start admin server on port ${adminPort}. Possibly admin server already started.`,
       );
@@ -57,8 +64,9 @@ import { connect, stopAllLocalDynamoDB, stopLocalDynamoDB } from './../src/table
   });
   if (localAdminServer) {
     info('Shutting down local DynamoDB admin ...');
+    const server = localAdminServer;
     await new Promise<void>((resolve, _reject) => {
-      localAdminServer.close(() => resolve());
+      server.close(() => resolve());
     });
     info('  Local admin server shut down successfully');
   }
