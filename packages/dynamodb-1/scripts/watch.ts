@@ -32,8 +32,8 @@ import { connect, stopAllLocalDynamoDB, stopLocalDynamoDB } from './../src/table
     localAdminServer = localAdmin.listen(adminPort, 'localhost');
     const server = localAdminServer;
     // localAdminServer is defined at this point
-    localAdminServer!.on('listening', () => {
-      const address = server!.address();
+    localAdminServer?.on('listening', () => {
+      const address = server?.address();
       if (!address) {
         throw new Error('Local admin server not started successfully.');
       }
@@ -45,7 +45,7 @@ import { connect, stopAllLocalDynamoDB, stopLocalDynamoDB } from './../src/table
       }
       resolve();
     });
-    localAdminServer!.on('error', () => {
+    localAdminServer?.on('error', () => {
       warn(
         `Cannot start admin server on port ${adminPort}. Possibly admin server already started.`,
       );
