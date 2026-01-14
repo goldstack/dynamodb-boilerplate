@@ -2565,12 +2565,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-dynamodb-cli@npm:0.6.70":
-  version: 0.6.70
-  resolution: "@goldstack/template-dynamodb-cli@npm:0.6.70"
+"@goldstack/template-dynamodb-cli@npm:0.6.71":
+  version: 0.6.71
+  resolution: "@goldstack/template-dynamodb-cli@npm:0.6.71"
   dependencies:
     "@aws-sdk/client-dynamodb": "npm:^3.958.0"
-    "@goldstack/template-dynamodb": "npm:0.3.66"
+    "@goldstack/template-dynamodb": "npm:0.3.67"
     "@goldstack/utils-cli": "npm:0.3.29"
     "@goldstack/utils-log": "npm:0.3.31"
     "@goldstack/utils-package": "npm:0.4.39"
@@ -2584,13 +2584,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-dynamodb: ./bin/template
-  checksum: 10/ae25dd5ec520201d5d4172f796e820610f75a3a9911e89d80a07f8be5b47640824c9c7ced6ae8d9199af34a62b96969e409d16a648a5eec137b8f6d410515e1b
+  checksum: 10/a17586d462af16ff185a40fc6efe0ed250de2bf409844d3b91938d35d978c76c26b1cecf2b023d3d65300f5c48c585ed1f62365a7d41adc2ff17f2a851c427ec
   languageName: node
   linkType: hard
 
-"@goldstack/template-dynamodb@npm:0.3.66":
-  version: 0.3.66
-  resolution: "@goldstack/template-dynamodb@npm:0.3.66"
+"@goldstack/template-dynamodb@npm:0.3.67":
+  version: 0.3.67
+  resolution: "@goldstack/template-dynamodb@npm:0.3.67"
   dependencies:
     "@aws-sdk/client-dynamodb": "npm:^3.958.0"
     "@aws-sdk/credential-providers": "npm:^3.958.0"
@@ -2608,7 +2608,7 @@ __metadata:
     tcp-port-used: "npm:^1.0.2"
     umzug: "npm:^3.8.2"
     wait-port: "npm:^1.1.0"
-  checksum: 10/57bcd41a85e707196bcb87bfbed724bcd06a832a189d6e8a68ff69affeeee152e7b3658107d7907b81be0b8b1219187ba40914678cba6ea7d3b1678a32cbfc24
+  checksum: 10/000bfe3c52bb19e8930e607d1f46360a5f34070b05bdf64c886ac4ab871b20a272b75abeee7a138cacad2f49c80e6e7e09ee93e776a7c94ebe950aaeda254f17
   languageName: node
   linkType: hard
 
@@ -6524,8 +6524,8 @@ __metadata:
   dependencies:
     "@aws-sdk/client-dynamodb": "npm:^3.958.0"
     "@aws-sdk/lib-dynamodb": "npm:^3.958.0"
-    "@goldstack/template-dynamodb": "npm:0.3.66"
-    "@goldstack/template-dynamodb-cli": "npm:0.6.70"
+    "@goldstack/template-dynamodb": "npm:0.3.67"
+    "@goldstack/template-dynamodb-cli": "npm:0.6.71"
     "@goldstack/utils-log": "npm:0.3.31"
     "@swc/core": "npm:^1.15.8"
     "@swc/jest": "npm:^0.2.39"
