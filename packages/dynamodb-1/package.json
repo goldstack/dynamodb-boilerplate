@@ -26,21 +26,21 @@
     "watch": "DYNAMODB_ADMIN_PORT=8001 GOLDSTACK_DEPLOYMENT=local ts-node scripts/watch.ts"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.958.0",
-    "@aws-sdk/lib-dynamodb": "^3.958.0",
-    "@goldstack/template-dynamodb": "0.4.3",
+    "@aws-sdk/client-dynamodb": "^3.997.0",
+    "@aws-sdk/lib-dynamodb": "^3.997.0",
+    "@goldstack/template-dynamodb": "0.4.4",
     "@goldstack/utils-log": "0.3.33",
     "dynamodb-toolbox": "^2.7.2",
     "umzug": "^3.8.2"
   },
   "devDependencies": {
-    "@goldstack/template-dynamodb-cli": "0.6.77",
+    "@goldstack/template-dynamodb-cli": "0.6.78",
     "@swc/core": "^1.15.8",
     "@swc/jest": "^0.2.39",
     "@types/ejs": "^3.1.5",
     "@types/jest": "^30.0.0",
     "@types/node": "^25.0.3",
-    "aws-sdk": "2.1525.0",
+    "aws-sdk": "2.1693.0",
     "dynamodb-admin": "^4.6.1",
     "ejs": "^3.1.8",
     "jest": "^30.2.0",
