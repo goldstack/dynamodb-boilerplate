@@ -346,7 +346,7 @@ const RAW_RUNTIME_STATE =
           ["@aws-sdk/client-dynamodb", "npm:3.1164.0"],\
           ["@aws-sdk/core", "npm:3.980.1"],\
           ["@aws-sdk/lib-dynamodb", "virtual:4e1f3d48c363dfd415bd7dac6f5ddbf266cd959a847b61e42b10fe044b30237bcc02fb4e1ac91914d5995210473f28564a9ca330926dfe6cbd7e1a0a262fc3fa#npm:3.1164.0"],\
-          ["@aws-sdk/util-dynamodb", "virtual:7eb276723b9647d39ca48ac7d1f46d70e6ecadb7cc2b3351c202ddf7a42141406774b0c9bcac556b5d8b0af565fc7c7efb20cf104e562688855f0b0244e9aece#npm:3.996.9"],\
+          ["@aws-sdk/util-dynamodb", "virtual:85501c6833f0654b3b3e7df12694f6acbf482bab4a39cb95198c4f7a63536a0d1229d18033aacef396ad2159bbaa5d15bb1b23dbf0b521f773de394e81959317#npm:3.996.9"],\
           ["@smithy/core", "npm:3.39.0"],\
           ["@smithy/types", "npm:4.19.0"],\
           ["@types/aws-sdk__client-dynamodb", null],\
@@ -473,11 +473,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:7eb276723b9647d39ca48ac7d1f46d70e6ecadb7cc2b3351c202ddf7a42141406774b0c9bcac556b5d8b0af565fc7c7efb20cf104e562688855f0b0244e9aece#npm:3.996.9", {\
-        "packageLocation": "./.yarn/__virtual__/@aws-sdk-util-dynamodb-virtual-8a828ed644/0/cache/@aws-sdk-util-dynamodb-npm-3.996.9-068d8cfe4e-23962e56d7.zip/node_modules/@aws-sdk/util-dynamodb/",\
+      ["virtual:85501c6833f0654b3b3e7df12694f6acbf482bab4a39cb95198c4f7a63536a0d1229d18033aacef396ad2159bbaa5d15bb1b23dbf0b521f773de394e81959317#npm:3.996.9", {\
+        "packageLocation": "./.yarn/__virtual__/@aws-sdk-util-dynamodb-virtual-d80cb6e38f/0/cache/@aws-sdk-util-dynamodb-npm-3.996.9-068d8cfe4e-23962e56d7.zip/node_modules/@aws-sdk/util-dynamodb/",\
         "packageDependencies": [\
           ["@aws-sdk/client-dynamodb", "npm:3.1164.0"],\
-          ["@aws-sdk/util-dynamodb", "virtual:7eb276723b9647d39ca48ac7d1f46d70e6ecadb7cc2b3351c202ddf7a42141406774b0c9bcac556b5d8b0af565fc7c7efb20cf104e562688855f0b0244e9aece#npm:3.996.9"],\
+          ["@aws-sdk/util-dynamodb", "virtual:85501c6833f0654b3b3e7df12694f6acbf482bab4a39cb95198c4f7a63536a0d1229d18033aacef396ad2159bbaa5d15bb1b23dbf0b521f773de394e81959317#npm:3.996.9"],\
           ["@types/aws-sdk__client-dynamodb", null],\
           ["tslib", "npm:2.7.0"]\
         ],\
@@ -1706,16 +1706,16 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-dynamodb", [\
-      ["npm:0.4.37", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-npm-0.4.37-7eb276723b-7998992977.zip/node_modules/@goldstack/template-dynamodb/",\
+      ["npm:0.4.38", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-npm-0.4.38-85501c6833-c409699531.zip/node_modules/@goldstack/template-dynamodb/",\
         "packageDependencies": [\
           ["@aws-sdk/client-dynamodb", "npm:3.1164.0"],\
           ["@aws-sdk/credential-providers", "npm:3.1164.0"],\
           ["@aws-sdk/types", "npm:3.975.0"],\
-          ["@aws-sdk/util-dynamodb", "virtual:7eb276723b9647d39ca48ac7d1f46d70e6ecadb7cc2b3351c202ddf7a42141406774b0c9bcac556b5d8b0af565fc7c7efb20cf104e562688855f0b0244e9aece#npm:3.996.9"],\
+          ["@aws-sdk/util-dynamodb", "virtual:85501c6833f0654b3b3e7df12694f6acbf482bab4a39cb95198c4f7a63536a0d1229d18033aacef396ad2159bbaa5d15bb1b23dbf0b521f773de394e81959317#npm:3.996.9"],\
           ["@goldstack/infra", "npm:0.4.52"],\
           ["@goldstack/infra-aws", "npm:0.4.81"],\
-          ["@goldstack/template-dynamodb", "npm:0.4.37"],\
+          ["@goldstack/template-dynamodb", "npm:0.4.38"],\
           ["@goldstack/utils-esbuild", "npm:0.5.33"],\
           ["@goldstack/utils-log", "npm:0.3.43"],\
           ["@goldstack/utils-package", "npm:0.4.54"],\
@@ -1731,12 +1731,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-dynamodb-cli", [\
-      ["npm:0.6.111", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.6.111-214dc1d51a-7c8cd889ed.zip/node_modules/@goldstack/template-dynamodb-cli/",\
+      ["npm:0.6.112", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-dynamodb-cli-npm-0.6.112-cb46b7bf9f-0ea5ffeed5.zip/node_modules/@goldstack/template-dynamodb-cli/",\
         "packageDependencies": [\
           ["@aws-sdk/client-dynamodb", "npm:3.1164.0"],\
-          ["@goldstack/template-dynamodb", "npm:0.4.37"],\
-          ["@goldstack/template-dynamodb-cli", "npm:0.6.111"],\
+          ["@goldstack/template-dynamodb", "npm:0.4.38"],\
+          ["@goldstack/template-dynamodb-cli", "npm:0.6.112"],\
           ["@goldstack/utils-cli", "npm:0.3.40"],\
           ["@goldstack/utils-log", "npm:0.3.43"],\
           ["@goldstack/utils-package", "npm:0.4.54"],\
@@ -4902,8 +4902,8 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@aws-sdk/client-dynamodb", "npm:3.1164.0"],\
           ["@aws-sdk/lib-dynamodb", "virtual:4e1f3d48c363dfd415bd7dac6f5ddbf266cd959a847b61e42b10fe044b30237bcc02fb4e1ac91914d5995210473f28564a9ca330926dfe6cbd7e1a0a262fc3fa#npm:3.1164.0"],\
-          ["@goldstack/template-dynamodb", "npm:0.4.37"],\
-          ["@goldstack/template-dynamodb-cli", "npm:0.6.111"],\
+          ["@goldstack/template-dynamodb", "npm:0.4.38"],\
+          ["@goldstack/template-dynamodb-cli", "npm:0.6.112"],\
           ["@goldstack/utils-log", "npm:0.3.43"],\
           ["@swc/core", "virtual:4e1f3d48c363dfd415bd7dac6f5ddbf266cd959a847b61e42b10fe044b30237bcc02fb4e1ac91914d5995210473f28564a9ca330926dfe6cbd7e1a0a262fc3fa#npm:1.16.13"],\
           ["@swc/jest", "virtual:4e1f3d48c363dfd415bd7dac6f5ddbf266cd959a847b61e42b10fe044b30237bcc02fb4e1ac91914d5995210473f28564a9ca330926dfe6cbd7e1a0a262fc3fa#npm:0.2.39"],\
